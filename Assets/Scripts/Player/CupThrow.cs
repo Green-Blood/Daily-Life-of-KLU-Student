@@ -34,7 +34,7 @@ namespace Player
 
             itemRigidBody.AddForce(_movement.Direction * _playerSettings.throwDistance, ForceMode2D.Impulse);
 
-            await UniTask.NextFrame();
+            // await UniTask.NextFrame();
         }
 
         private Vector3 SetPositionOffset() =>
