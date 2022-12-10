@@ -1,4 +1,4 @@
-using Player;
+using Characters.Interfaces;
 using UnityEngine;
 
 namespace Characters.Enemy

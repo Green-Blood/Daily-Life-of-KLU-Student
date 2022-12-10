@@ -1,6 +1,7 @@
+using Characters.Interfaces;
 using UnityEngine;
 
-namespace Player
+namespace Characters.Player
 {
     public class PlayerFacade : MonoBehaviour, IFacade
     {

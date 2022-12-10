@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace Player
+namespace Characters.Interfaces
 {
     public interface IThrow
     {

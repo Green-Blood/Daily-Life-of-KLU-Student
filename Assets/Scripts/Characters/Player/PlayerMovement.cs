@@ -1,7 +1,8 @@
+using Characters.Interfaces;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player
+namespace Characters.Player
 {
     public class PlayerMovement : IMovement
     {

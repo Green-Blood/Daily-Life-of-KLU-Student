@@ -1,4 +1,4 @@
-namespace Interfaces
+namespace ExtentionMethods.Object_Pooler.Interfaces
 {
     public interface IPooledObject
     {
