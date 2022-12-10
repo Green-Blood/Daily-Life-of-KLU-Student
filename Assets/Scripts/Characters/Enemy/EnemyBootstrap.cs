@@ -6,7 +6,7 @@ namespace Characters.Enemy
 {
     public class EnemyBootstrap : MonoBehaviour
     {
-        [SerializeField] private EnemyHealth enemyHealth;
+        [SerializeField] private CharacterHealth characterHealth;
         [SerializeField] private EnemyDeath enemyDeath;
         [SerializeField] private EnemySettings enemySettings;
         [SerializeField] private NavMeshAgent agent;
@@ -15,7 +15,7 @@ namespace Characters.Enemy
 
         public void Construct(Transform playerTransform)
         {
-            enemyHealth.Construct(enemySettings, enemyDeath);
+            characterHealth.Construct(enemySettings, enemyDeath);
             _playerTransform = playerTransform;
         }
 

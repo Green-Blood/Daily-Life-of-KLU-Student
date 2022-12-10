@@ -12,12 +12,12 @@ namespace Core
         [SerializeField] private PlayerBootstrap playerBootstrap;
         [SerializeField] private EnemySpawnPoint[] enemySpawnPoints;
         [SerializeField] private ObjectPooler objectPooler;
+        [SerializeField] private GameCanvas gameCanvas;
+
 
         private void Awake()
         {
             _stateMachine = new StateMachine();
-
-           
         }
 
         private void Start()
@@ -25,6 +25,9 @@ namespace Core
             InitStateMachine();
             ConstructPlayer();
             ConstructEnemies();
+
+            gameCanvas.Construct(playerBootstrap);
+
             // TODO Change it with the game state 
             playerBootstrap.StartPlayer();
         }

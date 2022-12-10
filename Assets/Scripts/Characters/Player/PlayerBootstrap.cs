@@ -1,3 +1,5 @@
+using Characters.Enemy;
+using Characters.Interfaces;
 using ExtentionMethods.Object_Pooler;
 using UniRx;
 using UnityEngine;
@@ -10,12 +12,14 @@ namespace Characters.Player
         [SerializeField] private PlayerFacade playerFacade;
         [SerializeField] private PlayerSettings playerSettings;
         [SerializeField] private PlayerInput playerInput;
+        [SerializeField] private CharacterHealth playerHealth;
         [SerializeField] private Tag cupTag;
 
 
         private PlayerMovement _playerMovement;
         private InputSystem _inputSystem;
         private CupThrow _playerThrow;
+        public CharacterHealth PlayerHealth => playerHealth;
 
         public void Construct(ObjectPooler objectPooler)
         {
@@ -31,4 +35,6 @@ namespace Characters.Player
             Observable.EveryFixedUpdate().Subscribe(l => { _playerMovement.Move(); });
         }
     }
+
+     
 }

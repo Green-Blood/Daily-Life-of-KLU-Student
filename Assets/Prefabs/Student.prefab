@@ -154,9 +154,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 137de1b59a42462b832fc2bcec83585f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyHealth: {fileID: 1394907856475969171}
+  characterHealth: {fileID: 1394907856475969171}
   enemyDeath: {fileID: 5459002645793399377}
   enemySettings: {fileID: 11400000, guid: bd01a3c89b92141fb8d4665d24eb95e8, type: 2}
+  agent: {fileID: 2474961343570537204}
 --- !u!114 &1394907856475969171
 MonoBehaviour:
   m_ObjectHideFlags: 0

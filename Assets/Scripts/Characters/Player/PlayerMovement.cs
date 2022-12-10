@@ -17,7 +17,7 @@ namespace Characters.Player
         {
             _inputSystem = inputSystem;
             _rigidbody2D = playerFacade.CharacterRigidBody;
-            _playerSpeed = playerSettings.playerSpeed;
+            _playerSpeed = playerSettings.characterSpeed;
 
             SubscribeToEvents(inputSystem);
         }
