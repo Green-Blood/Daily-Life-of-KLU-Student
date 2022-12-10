@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 7201640417647188888}
   - component: {fileID: 7201640417647188891}
   - component: {fileID: 5177686632775010954}
+  - component: {fileID: 5958560160557296785}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -143,6 +144,7 @@ MonoBehaviour:
   playerSettings: {fileID: 11400000, guid: 5e56d08af670842d1a04e680bcd3e536, type: 2}
   playerInput: {fileID: 7201640417647188891}
   playerHealth: {fileID: 5177686632775010954}
+  playerDeath: {fileID: 5958560160557296785}
   cupTag: {fileID: 11400000, guid: e63b8917faac14f9fb22701f2f72274f, type: 2}
 --- !u!114 &7201640417647188888
 MonoBehaviour:
@@ -197,5 +199,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06e03299cd364f12b5f50162bf5ffa17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &5958560160557296785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201640417647188866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2217cd847c7481ba99a4c17f3871bd9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
