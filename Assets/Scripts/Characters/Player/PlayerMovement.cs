@@ -25,6 +25,7 @@ namespace Characters.Player
         private void SubscribeToEvents(InputSystem inputSystem)
         {
             inputSystem.OnMoveInputAction.performed += OnMove;
+            inputSystem.OnMoveInputAction.canceled += StopMoving;
             
         }
 
@@ -42,6 +43,14 @@ namespace Characters.Player
             _rigidbody2D.MovePosition(_rigidbody2D.position + normalizedInput * _playerSpeed * Time.deltaTime);
         }
 
-        private void SetInput(InputAction inputValue) => _moveInput = inputValue.ReadValue<Vector2>();
+        private void SetInput(InputAction inputValue)
+        {
+            _moveInput = inputValue.ReadValue<Vector2>();
+        }
+
+        private void StopMoving(InputAction.CallbackContext obj)
+        {
+            _moveInput = Vector2.zero;
+        }
     }
 }

@@ -2,20 +2,32 @@ using System;
 using Characters.Enemy;
 using Characters.Player;
 using ExtentionMethods.Object_Pooler;
+using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Core
 {
     public class Bootstrap : MonoBehaviour
     {
-        private StateMachine _stateMachine;
-        [SerializeField] private PlayerBootstrap playerBootstrap;
+        [BoxGroup("SpawnPoints")]
         [SerializeField] private EnemySpawnPoint[] enemySpawnPoints;
-        [SerializeField] private GameTrigger[] gameTriggers;
-        [SerializeField] private ObjectPooler objectPooler;
+        [BoxGroup("SpawnPoints")] 
+        [SerializeField] private EnemySpawnPoint tomSpawnPoint;
+
+        [BoxGroup("UI")] 
         [SerializeField] private GameCanvas gameCanvas;
 
-
+        [BoxGroup("Game Scripts")] 
+        [SerializeField] private PlayerBootstrap playerBootstrap;
+        [BoxGroup("Game Scripts")] 
+        [SerializeField] private GameTrigger[] gameTriggers;
+        [BoxGroup("Game Scripts")] 
+        [SerializeField] private ObjectPooler objectPooler;
+        [BoxGroup("Settings")] 
+        [SerializeField] private GameSettings gameSettings;
+        
+        
+        private StateMachine _stateMachine;
         private void Awake()
         {
             _stateMachine = new StateMachine();
@@ -29,9 +41,48 @@ namespace Core
             ConstructTriggers();
 
             gameCanvas.Construct(playerBootstrap);
+            tomSpawnPoint.Construct(objectPooler, playerBootstrap.transform);
 
             // TODO Change it with the game state 
             playerBootstrap.StartPlayer();
+            _stateMachine.Enter(State.TomCanStart);
+        }
+
+        private void OnStateChange(State state)
+        {
+            switch (state)
+            {
+                case State.TomStart:
+                    StopEnemies();
+                    StartTom();
+                    break;
+                case State.TomEnd:
+                    StartEnemies();
+
+                    break;
+            }
+        }
+
+        private void StartTom()
+        {
+            tomSpawnPoint.SpawnTom(gameSettings.tomSpawnDelay);
+        }
+
+
+        private void StopEnemies()
+        {
+            foreach (var enemySpawnPoint in enemySpawnPoints)
+            {
+                enemySpawnPoint.StopSpawn();
+            }
+        }
+
+        private void StartEnemies()
+        {
+            foreach (var enemySpawnPoint in enemySpawnPoints)
+            {
+                enemySpawnPoint.AllowSpawn();
+            }
         }
 
         private void ConstructEnemies()
@@ -58,21 +109,6 @@ namespace Core
         {
             _stateMachine.OnStateChange += OnStateChange;
             _stateMachine.Enter(State.GameStart);
-        }
-
-        private void OnStateChange(State state)
-        {
-            switch (state)
-            {
-                case State.GameStart:
-                    break;
-                case State.GameEnd:
-                    break;
-                case State.GameFinish:
-                    break;
-                default:
-                    throw new ArgumentOutOfRangeException(nameof(state), state, null);
-            }
         }
     }
 }
