@@ -1,7 +1,8 @@
 using System;
+using Characters.Interfaces;
+using Characters.Player;
 // using Characters.Interfaces;
 // using Characters.Player;
-using Player;
 using UnityEngine;
 
 namespace Cups

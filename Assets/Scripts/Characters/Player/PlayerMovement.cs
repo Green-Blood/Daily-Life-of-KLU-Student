@@ -1,7 +1,8 @@
+using Characters.Interfaces;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player
+namespace Characters.Player
 {
     public class PlayerMovement : IMovement
     {
@@ -16,7 +17,7 @@ namespace Player
         {
             _inputSystem = inputSystem;
             _rigidbody2D = playerFacade.CharacterRigidBody;
-            _playerSpeed = playerSettings.playerSpeed;
+            _playerSpeed = playerSettings.characterSpeed;
 
             SubscribeToEvents(inputSystem);
         }

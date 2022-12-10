@@ -1,8 +1,10 @@
+using Characters.Interfaces;
 using Cysharp.Threading.Tasks;
+using ExtentionMethods.Object_Pooler;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player
+namespace Characters.Player
 {
     public class CupThrow : IThrow
     {

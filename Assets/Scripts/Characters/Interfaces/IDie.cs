@@ -1,4 +1,4 @@
-namespace Player
+namespace Characters.Interfaces
 {
     public interface IDie
     {
