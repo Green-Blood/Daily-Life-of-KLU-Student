@@ -1,0 +1,33 @@
+diff --git a/Assets/Scripts/Player/PlayerFacade.cs.meta b/Assets/Scripts/Characters/Player/PlayerFacade.cs.meta
+rename from Assets/Scripts/Player/PlayerFacade.cs.meta
+rename to Assets/Scripts/Characters/Player/PlayerFacade.cs.meta
+diff --git a/Assets/Scripts/Player/IThrow.cs.meta b/Assets/Scripts/Characters/Interfaces/IThrow.cs.meta
+rename from Assets/Scripts/Player/IThrow.cs.meta
+rename to Assets/Scripts/Characters/Interfaces/IThrow.cs.meta
+diff --git a/Assets/Scripts/Player.meta b/Assets/Scripts/Characters/Player.meta
+rename from Assets/Scripts/Player.meta
+rename to Assets/Scripts/Characters/Player.meta
+diff --git a/Assets/Scripts/Player/PlayerBootstrap.cs.meta b/Assets/Scripts/Characters/Player/PlayerBootstrap.cs.meta
+rename from Assets/Scripts/Player/PlayerBootstrap.cs.meta
+rename to Assets/Scripts/Characters/Player/PlayerBootstrap.cs.meta
+diff --git a/Assets/Scripts/Player/PlayerSettings.cs.meta b/Assets/Scripts/Characters/Player/PlayerSettings.cs.meta
+rename from Assets/Scripts/Player/PlayerSettings.cs.meta
+rename to Assets/Scripts/Characters/Player/PlayerSettings.cs.meta
+diff --git a/Assets/Scripts/Player/InputSystem.cs.meta b/Assets/Scripts/Characters/Player/InputSystem.cs.meta
+rename from Assets/Scripts/Player/InputSystem.cs.meta
+rename to Assets/Scripts/Characters/Player/InputSystem.cs.meta
+diff --git a/Assets/Scripts/Core/Bootstrap.cs.meta b/Assets/Scripts/Core/GameBootstrap.cs.meta
+rename from Assets/Scripts/Core/Bootstrap.cs.meta
+rename to Assets/Scripts/Core/GameBootstrap.cs.meta
+diff --git a/Assets/Scripts/Player/PlayerMovement.cs.meta b/Assets/Scripts/Characters/Player/PlayerMovement.cs.meta
+rename from Assets/Scripts/Player/PlayerMovement.cs.meta
+rename to Assets/Scripts/Characters/Player/PlayerMovement.cs.meta
+diff --git a/Assets/Scripts/Player/IFacade.cs.meta b/Assets/Scripts/Characters/Interfaces/IFacade.cs.meta
+rename from Assets/Scripts/Player/IFacade.cs.meta
+rename to Assets/Scripts/Characters/Interfaces/IFacade.cs.meta
+diff --git a/Assets/Scripts/Player/PlayerFacade.cs.meta b/Assets/Scripts/Characters/Player/PlayerFacade.cs.meta
+rename from Assets/Scripts/Player/PlayerFacade.cs.meta
+rename to Assets/Scripts/Characters/Player/PlayerFacade.cs.meta
+diff --git a/Assets/Scripts/Player/IThrow.cs.meta b/Assets/Scripts/Characters/Interfaces/IThrow.cs.meta
+rename from Assets/Scripts/Player/IThrow.cs.meta
+rename to Assets/Scripts/Characters/Interfaces/IThrow.cs.meta

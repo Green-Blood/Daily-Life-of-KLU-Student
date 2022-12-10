@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Added player movement and basic camera follow">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs.meta" afterDir="false" />
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Player attack">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/DataExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/DataExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/SingletonClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/SingletonClass.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/WithExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/WithExtension.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,14 +30,61 @@
     </option>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Actions/Player Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Cup.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/DataExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/SingletonClass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/SingletonClass.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/WithExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/WithExtension.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IFacade.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IThrow.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/InputSystem.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerFacade.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/Physics2DSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2IgcxfwfneHgKfwV1dOQsRFSZZa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -81,16 +139,22 @@
       <option name="presentableId" value="Default" />
       <updated>1670606915029</updated>
       <workItem from="1670606920201" duration="3942000" />
-      <workItem from="1670612321584" duration="908000" />
     </task>
-    <task id="LOCAL-00001" summary="Update: Added player movement and basic camera follow">
-      <created>1670612353578</created>
+    <task id="LOCAL-00001" summary="Update: PlayerAttack logic">
+      <created>1670620411469</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1670612353578</updated>
+      <updated>1670620411469</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Update: Player attack">
+      <created>1670622673144</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670622673144</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-    <MESSAGE value="Update: Added player movement and basic camera follow" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Added player movement and basic camera follow" />
+    <MESSAGE value="Update: PlayerAttack logic" />
+    <MESSAGE value="Update: Player attack" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Player attack" />
   </component>
 </project>

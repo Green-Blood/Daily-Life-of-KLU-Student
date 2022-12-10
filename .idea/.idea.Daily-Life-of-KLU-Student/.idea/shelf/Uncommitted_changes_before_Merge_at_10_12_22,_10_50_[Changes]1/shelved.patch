@@ -1,0 +1,1130 @@
+Index: Assets/Scripts/Player/PlayerFacade.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/PlayerFacade.cs b/Assets/Scripts/Characters/Player/PlayerFacade.cs
+rename from Assets/Scripts/Player/PlayerFacade.cs
+rename to Assets/Scripts/Characters/Player/PlayerFacade.cs
+--- a/Assets/Scripts/Player/PlayerFacade.cs	
++++ b/Assets/Scripts/Characters/Player/PlayerFacade.cs	
+@@ -1,6 +1,7 @@
++using Characters.Interfaces;
+ using UnityEngine;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     public class PlayerFacade : MonoBehaviour, IFacade
+     {
+Index: Assets/Scripts/Player/PlayerMovement.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/PlayerMovement.cs b/Assets/Scripts/Characters/Player/PlayerMovement.cs
+rename from Assets/Scripts/Player/PlayerMovement.cs
+rename to Assets/Scripts/Characters/Player/PlayerMovement.cs
+--- a/Assets/Scripts/Player/PlayerMovement.cs	
++++ b/Assets/Scripts/Characters/Player/PlayerMovement.cs	
+@@ -1,7 +1,8 @@
++using Characters.Interfaces;
+ using UnityEngine;
+ using UnityEngine.InputSystem;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     public class PlayerMovement : IMovement
+     {
+Index: Assets/Scripts/Player/IThrow.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/IThrow.cs b/Assets/Scripts/Characters/Interfaces/IThrow.cs
+rename from Assets/Scripts/Player/IThrow.cs
+rename to Assets/Scripts/Characters/Interfaces/IThrow.cs
+--- a/Assets/Scripts/Player/IThrow.cs	
++++ b/Assets/Scripts/Characters/Interfaces/IThrow.cs	
+@@ -1,6 +1,6 @@
+ using Cysharp.Threading.Tasks;
+ 
+-namespace Player
++namespace Characters.Interfaces
+ {
+     public interface IThrow
+     {
+Index: Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs b/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs
+--- a/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs	
++++ b/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs	
+@@ -1,7 +1,7 @@
+ using System.Linq;
+ using UnityEngine;
+ 
+-namespace Extensions
++namespace ExtentionMethods
+ {
+     public static class Collision2DExtensions
+     {
+Index: Assets/_Scenes/Game.unity
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/_Scenes/Game.unity b/Assets/_Scenes/Game.unity
+--- a/Assets/_Scenes/Game.unity	
++++ b/Assets/_Scenes/Game.unity	
+@@ -674,6 +674,82 @@
+   m_Script: {fileID: 11500000, guid: ac0b09e7857660247b1477e93731de29, type: 3}
+   m_Name: 
+   m_EditorClassIdentifier: 
++--- !u!1 &1763518860
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 1763518861}
++  - component: {fileID: 1763518862}
++  m_Layer: 0
++  m_Name: EnemySpawnPoint
++  m_TagString: Untagged
++  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &1763518861
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1763518860}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: -6.5, y: 0.7, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 0}
++  m_RootOrder: 7
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
++--- !u!114 &1763518862
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1763518860}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 4b9898202fcdf40e6a217ee11f034210, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  enemyTag: {fileID: 11400000, guid: ed307d47842534fd7a92799b044baf5b, type: 2}
++--- !u!1 &1852935793
++GameObject:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  serializedVersion: 6
++  m_Component:
++  - component: {fileID: 1852935794}
++  m_Layer: 0
++  m_Name: Students
++  m_TagString: Untagged
++  m_Icon: {fileID: 0}
++  m_NavMeshLayer: 0
++  m_StaticEditorFlags: 0
++  m_IsActive: 1
++--- !u!4 &1852935794
++Transform:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 1852935793}
++  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
++  m_LocalPosition: {x: 0, y: 0, z: 0}
++  m_LocalScale: {x: 1, y: 1, z: 1}
++  m_ConstrainProportionsScale: 0
++  m_Children: []
++  m_Father: {fileID: 0}
++  m_RootOrder: 8
++  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+ --- !u!1 &2077249678
+ GameObject:
+   m_ObjectHideFlags: 0
+@@ -800,14 +876,46 @@
+       propertyPath: m_LocalEulerAnglesHint.z
+       value: 0
+       objectReference: {fileID: 0}
++    - target: {fileID: 1490230863900306325, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: objectPooler
++      value: 
++      objectReference: {fileID: 1294702031}
+     - target: {fileID: 1490230863900306325, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
+       propertyPath: playerBootstrap
+       value: 
+       objectReference: {fileID: 1034856756}
++    - target: {fileID: 1490230863900306325, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: spawnPoints.Array.size
++      value: 1
++      objectReference: {fileID: 0}
++    - target: {fileID: 1490230863900306325, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: spawnPoints.Array.data[0]
++      value: 
++      objectReference: {fileID: 1763518862}
++    - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: pools.Array.size
++      value: 2
++      objectReference: {fileID: 0}
++    - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: pools.Array.data[1].tag
++      value: 
++      objectReference: {fileID: 11400000, guid: ed307d47842534fd7a92799b044baf5b, type: 2}
++    - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: pools.Array.data[1].size
++      value: 10
++      objectReference: {fileID: 0}
+     - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
+       propertyPath: pools.Array.data[0].parent
+       value: 
+       objectReference: {fileID: 1350851111}
++    - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: pools.Array.data[1].parent
++      value: 
++      objectReference: {fileID: 1852935794}
++    - target: {fileID: 1490230864715761902, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
++      propertyPath: pools.Array.data[1].prefab
++      value: 
++      objectReference: {fileID: 7611229223234598641, guid: b80f9fd8dc7734be498adda822db4a81, type: 3}
+     m_RemovedComponents: []
+   m_SourcePrefab: {fileID: 100100000, guid: 8fe7f68dd311a4a4795e32d7bb29cb56, type: 3}
+ --- !u!1001 &6216935696711707721
+@@ -865,6 +973,10 @@
+       propertyPath: m_Name
+       value: Cup
+       objectReference: {fileID: 0}
++    - target: {fileID: 7423017304342902661, guid: 8961d645bcbd84d15a162d32d4bd15f7, type: 3}
++      propertyPath: m_IsActive
++      value: 0
++      objectReference: {fileID: 0}
+     m_RemovedComponents: []
+   m_SourcePrefab: {fileID: 100100000, guid: 8961d645bcbd84d15a162d32d4bd15f7, type: 3}
+ --- !u!1001 &7201640418224272045
+@@ -938,6 +1050,10 @@
+     - target: {fileID: 7611229223234598641, guid: b80f9fd8dc7734be498adda822db4a81, type: 3}
+       propertyPath: m_Name
+       value: Student
++      objectReference: {fileID: 0}
++    - target: {fileID: 7611229223234598641, guid: b80f9fd8dc7734be498adda822db4a81, type: 3}
++      propertyPath: m_IsActive
++      value: 0
+       objectReference: {fileID: 0}
+     - target: {fileID: 7611229223234598647, guid: b80f9fd8dc7734be498adda822db4a81, type: 3}
+       propertyPath: m_RootOrder
+Index: Assets/Scripts/Player/CupThrow.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/CupThrow.cs b/Assets/Scripts/Characters/Player/CupThrow.cs
+rename from Assets/Scripts/Player/CupThrow.cs
+rename to Assets/Scripts/Characters/Player/CupThrow.cs
+--- a/Assets/Scripts/Player/CupThrow.cs	
++++ b/Assets/Scripts/Characters/Player/CupThrow.cs	
+@@ -1,9 +1,10 @@
++using Characters.Interfaces;
+ using Cysharp.Threading.Tasks;
+ using ExtentionMethods.Object_Pooler;
+ using UnityEngine;
+ using UnityEngine.InputSystem;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     public class CupThrow : IThrow
+     {
+Index: Assets/Scripts/Player/IMovement.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/IMovement.cs b/Assets/Scripts/Characters/Interfaces/IMovement.cs
+rename from Assets/Scripts/Player/IMovement.cs
+rename to Assets/Scripts/Characters/Interfaces/IMovement.cs
+--- a/Assets/Scripts/Player/IMovement.cs	
++++ b/Assets/Scripts/Characters/Interfaces/IMovement.cs	
+@@ -1,6 +1,6 @@
+ using UnityEngine;
+ 
+-namespace Player
++namespace Characters.Interfaces
+ {
+     public interface IMovement
+     {
+Index: Assets/Scripts/Characters.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters.meta b/Assets/Scripts/Characters.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 07bad9e8421e44e89d85b393466fdea0
++timeCreated: 1670663999
+\ No newline at end of file
+Index: .idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml b/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml
+--- a/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml	
++++ b/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml	
+@@ -1,12 +1,55 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
+   <component name="ChangeListManager">
+-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: PlayerAttack logic">
++    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Player attack">
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDeath.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDamageable.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDie.cs" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDie.cs.meta" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameBootstrap.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameBootstrap.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/DataExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/DataExtensions.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/SingletonClass.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/SingletonClass.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/WithExtension.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/WithExtension.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IFacade.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IFacade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IFacade.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IMovement.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IMovement.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IThrow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/InputSystem.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/InputSystem.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs.meta" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -22,11 +65,14 @@
+   </component>
+   <component name="HighlightingSettingsPerFile">
+     <setting file="file://$PROJECT_DIR$/Assets/Actions/Player Action.cs" root0="FORCE_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Cup.prefab" root0="SKIP_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
++    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs" root0="FORCE_HIGHLIGHTING" />
+     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
+     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+   </component>
+@@ -97,7 +143,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1670620411469</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="Update: Player attack">
++      <created>1670622673144</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1670622673144</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -120,6 +173,7 @@
+   <component name="VcsManagerConfiguration">
+     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+     <MESSAGE value="Update: PlayerAttack logic" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Update: PlayerAttack logic" />
++    <MESSAGE value="Update: Player attack" />
++    <option name="LAST_COMMIT_MESSAGE" value="Update: Player attack" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Assets/Scripts/Player/PlayerBootstrap.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/PlayerBootstrap.cs b/Assets/Scripts/Characters/Player/PlayerBootstrap.cs
+rename from Assets/Scripts/Player/PlayerBootstrap.cs
+rename to Assets/Scripts/Characters/Player/PlayerBootstrap.cs
+--- a/Assets/Scripts/Player/PlayerBootstrap.cs	
++++ b/Assets/Scripts/Characters/Player/PlayerBootstrap.cs	
+@@ -3,7 +3,7 @@
+ using UnityEngine;
+ using UnityEngine.InputSystem;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     public class PlayerBootstrap : MonoBehaviour
+     {
+Index: Assets/Scripts/Characters/Interfaces.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Interfaces.meta b/Assets/Scripts/Characters/Interfaces.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Interfaces.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: db09f3955a374fc397e3be85e58a6888
++timeCreated: 1670663980
+\ No newline at end of file
+Index: Assets/Prefabs/Cup.prefab
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Prefabs/Cup.prefab b/Assets/Prefabs/Cup.prefab
+--- a/Assets/Prefabs/Cup.prefab	
++++ b/Assets/Prefabs/Cup.prefab	
+@@ -13,6 +13,8 @@
+   - component: {fileID: 1772576097850411470}
+   - component: {fileID: 830816702077290087}
+   - component: {fileID: 5992486884315550208}
++  - component: {fileID: 543646804560107625}
++  - component: {fileID: 1456734626825744959}
+   m_Layer: 7
+   m_Name: Cup
+   m_TagString: Untagged
+@@ -118,7 +120,7 @@
+   m_Enabled: 1
+   m_Density: 1
+   m_Material: {fileID: 0}
+-  m_IsTrigger: 0
++  m_IsTrigger: 1
+   m_UsedByEffector: 0
+   m_UsedByComposite: 0
+   m_Offset: {x: 0, y: 0}
+@@ -148,3 +150,29 @@
+   m_EditorClassIdentifier: 
+   tags:
+   - {fileID: 11400000, guid: e63b8917faac14f9fb22701f2f72274f, type: 2}
++--- !u!114 &543646804560107625
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7423017304342902661}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 7d9c3e11d654043f09f8ed50e0f211bd, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++--- !u!114 &1456734626825744959
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7423017304342902661}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 1d8dd389eb59f4f36b57434f3d2f8f73, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  playerSettings: {fileID: 11400000, guid: 5e56d08af670842d1a04e680bcd3e536, type: 2}
++  triggerObserver: {fileID: 543646804560107625}
+Index: Assets/Scripts/Characters/Enemy/EnemyHealth.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyHealth.cs b/Assets/Scripts/Characters/Enemy/EnemyHealth.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyHealth.cs	
+@@ -0,0 +1,27 @@
++using Characters.Interfaces;
++using UnityEngine;
++
++namespace Characters.Enemy
++{
++    public class EnemyHealth : MonoBehaviour,IDamageable
++    {
++        private int _initialHealth;
++        private int _currentHealth;
++
++        public void Construct(EnemySettings enemySettings, IDie enemyDeath)
++        {
++            _initialHealth = enemySettings.health;
++            _currentHealth = _initialHealth;
++        }
++
++        public void TakeDamage(int amount)
++        {
++            _currentHealth -= amount;
++            Debug.Log("Current Enemy health is" + _currentHealth);
++            if (_currentHealth <= 0)
++            {
++                // Die
++            }
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta b/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 85a2b0e7e3ca4ef7a489cba14e3afbea
++timeCreated: 1670664130
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/SingletonClass.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/SingletonClass.cs b/Assets/Scripts/ExtentionMethods/SingletonClass.cs
+--- a/Assets/Scripts/ExtentionMethods/SingletonClass.cs	
++++ b/Assets/Scripts/ExtentionMethods/SingletonClass.cs	
+@@ -1,37 +1,39 @@
+-using System;
+ using UnityEngine;
+ 
+-public class SingletonClass<T> : MonoBehaviour where T : Component
+-{
+-    private static T _instance;
+-    private static bool _applicationIsQuitting = false;
++namespace ExtentionMethods
++{
++    public class SingletonClass<T> : MonoBehaviour where T : Component
++    {
++        private static T _instance;
++        private static bool _applicationIsQuitting = false;
+ 
+-    public static T Instance
+-    {
+-        get
+-        {
+-            if (_applicationIsQuitting) return null;
+-            if (_instance != null) return _instance;
+-            _instance = FindObjectOfType<T>();
+-            if (_instance != null) return _instance;
+-            var obj = new GameObject {name = typeof(T).Name};
+-            _instance = obj.AddComponent<T>();
+-            return _instance;
+-        }
+-    }
++        public static T Instance
++        {
++            get
++            {
++                if (_applicationIsQuitting) return null;
++                if (_instance != null) return _instance;
++                _instance = FindObjectOfType<T>();
++                if (_instance != null) return _instance;
++                var obj = new GameObject {name = typeof(T).Name};
++                _instance = obj.AddComponent<T>();
++                return _instance;
++            }
++        }
+ 
+-    protected virtual void Awake()
+-    {
+-        if (_instance == null)
+-        {
+-            _instance = this as T;
+-            DontDestroyOnLoad(this.gameObject);
+-        }
+-        else
+-        {
+-            Destroy(gameObject);
+-        }
+-    }
++        protected virtual void Awake()
++        {
++            if (_instance == null)
++            {
++                _instance = this as T;
++                DontDestroyOnLoad(this.gameObject);
++            }
++            else
++            {
++                Destroy(gameObject);
++            }
++        }
+ 
+-    private void OnDestroy() => _applicationIsQuitting = true;
++        private void OnDestroy() => _applicationIsQuitting = true;
++    }
+ }
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs b/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs
+--- a/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs	
++++ b/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs	
+@@ -1,4 +1,4 @@
+-namespace Interfaces
++namespace ExtentionMethods.Object_Pooler.Interfaces
+ {
+     public interface IPooledObject
+     {
+Index: ProjectSettings/Physics2DSettings.asset
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/ProjectSettings/Physics2DSettings.asset b/ProjectSettings/Physics2DSettings.asset
+--- a/ProjectSettings/Physics2DSettings.asset	
++++ b/ProjectSettings/Physics2DSettings.asset	
+@@ -53,4 +53,4 @@
+   m_ColliderAsleepColor: {r: 0.5686275, g: 0.95686275, b: 0.54509807, a: 0.36078432}
+   m_ColliderContactColor: {r: 1, g: 0, b: 1, a: 0.6862745}
+   m_ColliderAABBColor: {r: 1, g: 1, b: 0, a: 0.2509804}
+-  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
++  m_LayerCollisionMatrix: ffffffffffffffffffffffffffffffffffffffffffffffff7fffffffbfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+Index: Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta b/Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: a277cf7597cc4afb82f340d3b4a32111
++timeCreated: 1670663959
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs b/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs
+--- a/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs	
++++ b/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs	
+@@ -1,6 +1,6 @@
+ using System;
+ using System.Collections.Generic;
+-using Interfaces;
++using ExtentionMethods.Object_Pooler.Interfaces;
+ using JetBrains.Annotations;
+ using UnityEngine;
+ 
+Index: Assets/Scripts/Characters/Interfaces/IDamageable.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Interfaces/IDamageable.cs b/Assets/Scripts/Characters/Interfaces/IDamageable.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Interfaces/IDamageable.cs	
+@@ -0,0 +1,7 @@
++namespace Characters.Interfaces
++{
++    public interface IDamageable
++    {
++        void TakeDamage(int amount);
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Player/PlayerSettings.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/PlayerSettings.cs b/Assets/Scripts/Characters/Player/PlayerSettings.cs
+rename from Assets/Scripts/Player/PlayerSettings.cs
+rename to Assets/Scripts/Characters/Player/PlayerSettings.cs
+--- a/Assets/Scripts/Player/PlayerSettings.cs	
++++ b/Assets/Scripts/Characters/Player/PlayerSettings.cs	
+@@ -1,6 +1,6 @@
+ using UnityEngine;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     [CreateAssetMenu(menuName = "Settings/Create Player Settings", fileName = "PlayerSettings", order = 0)]
+     public class PlayerSettings : ScriptableObject
+@@ -8,5 +8,6 @@
+         public float playerSpeed;
+         public int throwDistance = 25;
+         public float cupCreationOffset;
++        public int cupDamage = 10;
+     }
+ }
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/TransformExtensions.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/TransformExtensions.cs b/Assets/Scripts/ExtentionMethods/TransformExtensions.cs
+--- a/Assets/Scripts/ExtentionMethods/TransformExtensions.cs	
++++ b/Assets/Scripts/ExtentionMethods/TransformExtensions.cs	
+@@ -1,11 +1,12 @@
+-using System.Collections;
+-using System.Collections.Generic;
+ using UnityEngine;
+ 
+-public static class TransformExtensions 
+-{
+-        public static Vector3 DirectionTo(this Transform source, Transform destination)
+-        {
+-                return source.position.DirectionTo(destination.position);
++namespace ExtentionMethods
++{
++        public static class TransformExtensions 
++        {
++                public static Vector3 DirectionTo(this Transform source, Transform destination)
++                {
++                        return source.position.DirectionTo(destination.position);
++                }
+         }
+ }
+Index: Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs b/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs	
+@@ -0,0 +1,16 @@
++using UnityEngine;
++
++namespace Characters.Enemy
++{
++    public class EnemyBootstrapper : MonoBehaviour
++    {
++        [SerializeField] private EnemySettings enemySettings;
++        [SerializeField] private EnemyHealth enemyHealth;
++        [SerializeField] private EnemyDeath enemyDeath;
++
++        public void Construct()
++        {
++            enemyHealth.Construct(enemySettings, enemyDeath);
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/DataExtensions.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/DataExtensions.cs b/Assets/Scripts/ExtentionMethods/DataExtensions.cs
+--- a/Assets/Scripts/ExtentionMethods/DataExtensions.cs	
++++ b/Assets/Scripts/ExtentionMethods/DataExtensions.cs	
+@@ -1,6 +1,6 @@
+ using UnityEngine;
+ 
+-namespace CodeBase.Data
++namespace ExtentionMethods
+ {
+     public static class DataExtensions
+     {
+Index: Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs.meta b/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyBootstrapper.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 3165969da4104f3b97c0a4ee8fada7b6
++timeCreated: 1670664360
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/Vector3Extensions.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs b/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs
+--- a/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs	
++++ b/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs	
+@@ -1,19 +1,22 @@
+ using UnityEngine;
+ 
+-public static class Vector3Extensions
+-{
+-     public static Vector3 With(this Vector3 original, float? x = null, float? y = null, float? z = null)
+-     {
+-          return new Vector3(x ?? original.x, y ??  original.y, z ?? original.z);
+-     }
++namespace ExtentionMethods
++{
++     public static class Vector3Extensions
++     {
++          public static Vector3 With(this Vector3 original, float? x = null, float? y = null, float? z = null)
++          {
++               return new Vector3(x ?? original.x, y ??  original.y, z ?? original.z);
++          }
+ 
+-     public static Vector3 Flat(this Vector3 original)
+-     {
+-          return new Vector3(original.x, 0, original.z);
+-     }
++          public static Vector3 Flat(this Vector3 original)
++          {
++               return new Vector3(original.x, 0, original.z);
++          }
+ 
+-     public static Vector3 DirectionTo(this Vector3 source, Vector3 destination)
+-     {
+-          return Vector3.Normalize(destination - source);
++          public static Vector3 DirectionTo(this Vector3 source, Vector3 destination)
++          {
++               return Vector3.Normalize(destination - source);
++          }
+      }
+ }
+Index: Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta b/Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: bd7d14fde2b14723b103ba51373a893b
++timeCreated: 1670664449
+\ No newline at end of file
+Index: Assets/Scripts/Characters/Enemy/EnemyDeath.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemyDeath.cs b/Assets/Scripts/Characters/Enemy/EnemyDeath.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemyDeath.cs	
+@@ -0,0 +1,14 @@
++using Characters.Interfaces;
++using UnityEngine;
++
++namespace Characters.Enemy
++{
++    public class EnemyDeath : MonoBehaviour, IDie
++    {
++        public void Die()
++        {
++            // TODO Add death logic
++            gameObject.SetActive(false);
++        }
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta b/Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 24c428dc250d445eb988f2f1e6f70dfd
++timeCreated: 1670664295
+\ No newline at end of file
+Index: Assets/Scripts/ExtentionMethods/WithExtension.cs
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Scripts/ExtentionMethods/WithExtension.cs b/Assets/Scripts/ExtentionMethods/WithExtension.cs
+--- a/Assets/Scripts/ExtentionMethods/WithExtension.cs	
++++ b/Assets/Scripts/ExtentionMethods/WithExtension.cs	
+@@ -1,26 +1,29 @@
+ using System;
+ 
+-public static class WithExtension
+-{
+-    public static T With<T>(this T self, Action<T> set)
+-    {
+-        set.Invoke(self);
+-        return self;
+-    }
++namespace ExtentionMethods
++{
++    public static class WithExtension
++    {
++        public static T With<T>(this T self, Action<T> set)
++        {
++            set.Invoke(self);
++            return self;
++        }
+ 
+-    public static T With<T>(this T self, Action<T> apply, Func<bool> when)
+-    {
+-        if (when())
+-            apply?.Invoke(self);
++        public static T With<T>(this T self, Action<T> apply, Func<bool> when)
++        {
++            if (when())
++                apply?.Invoke(self);
+ 
+-        return self;
+-    }
++            return self;
++        }
+ 
+-    public static T With<T>(this T self, Action<T> apply, bool when)
+-    {
+-        if (when)
+-            apply?.Invoke(self);
++        public static T With<T>(this T self, Action<T> apply, bool when)
++        {
++            if (when)
++                apply?.Invoke(self);
+ 
+-        return self;
++            return self;
++        }
+     }
+ }
+Index: Assets/Scripts/Core/Bootstrap.cs
+===================================================================
+diff --git a/Assets/Scripts/Core/Bootstrap.cs b/Assets/Scripts/Core/GameBootstrap.cs
+rename from Assets/Scripts/Core/Bootstrap.cs
+rename to Assets/Scripts/Core/GameBootstrap.cs
+--- a/Assets/Scripts/Core/Bootstrap.cs	
++++ b/Assets/Scripts/Core/GameBootstrap.cs	
+@@ -1,28 +1,54 @@
+ using System;
+-using Player;
++using Characters.Enemy;
++using Characters.Player;
++using ExtentionMethods.Object_Pooler;
+ using UnityEngine;
+ 
+ namespace Core
+ {
+-    public class Bootstrap : MonoBehaviour
++    public class GameBootstrap : MonoBehaviour
+     {
+         private StateMachine _stateMachine;
++        [SerializeField] private EnemySpawnPoint[] spawnPoints;
+         [SerializeField] private PlayerBootstrap playerBootstrap;
++        [SerializeField] private ObjectPooler objectPooler;
++
+ 
+         private void Awake()
+         {
+             _stateMachine = new StateMachine();
++            ConstructStudents();
++            ConstructPlayer();
+         }
+ 
+         private void Start()
+         {
++            InitStateMachine();
++            // TODO Change it with the game state 
++            playerBootstrap.StartPlayer();
++            foreach (var spawnPoint in spawnPoints)
++            {
++                spawnPoint.SpawnEnemy();
++            }
++        }
++
++        private void InitStateMachine()
++        {
+             _stateMachine.OnStateChange += OnStateChange;
+             _stateMachine.Enter(State.GameStart);
++        }
+ 
++        private void ConstructPlayer()
++        {
+             playerBootstrap.Construct();
++        }
+ 
+-            // TODO Change it with the game state 
+-            playerBootstrap.StartPlayer();
++        private void ConstructStudents()
++        {
++            foreach (var enemySpawnPoint in spawnPoints)
++            {
++                enemySpawnPoint.Construct(objectPooler);
++            }
+         }
+ 
+         private void OnStateChange(State state)
+Index: Assets/Scripts/Characters/Enemy/EnemySettings.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Enemy/EnemySettings.cs b/Assets/Scripts/Characters/Enemy/EnemySettings.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Enemy/EnemySettings.cs	
+@@ -0,0 +1,10 @@
++using UnityEngine;
++
++namespace Characters.Enemy
++{
++    [CreateAssetMenu(menuName = "Settings/Create EnemySettings", fileName = "EnemySettings", order = 0)]
++    public class EnemySettings : ScriptableObject
++    {
++        public int health;
++    }
++}
+\ No newline at end of file
+Index: Assets/Prefabs/Student.prefab
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Assets/Prefabs/Student.prefab b/Assets/Prefabs/Student.prefab
+--- a/Assets/Prefabs/Student.prefab	
++++ b/Assets/Prefabs/Student.prefab	
+@@ -12,6 +12,10 @@
+   - component: {fileID: 7611229223234598644}
+   - component: {fileID: 7611229223234598645}
+   - component: {fileID: 7611229223234598642}
++  - component: {fileID: 1107324495659067876}
++  - component: {fileID: 4552371999501468507}
++  - component: {fileID: 9204590487289830833}
++  - component: {fileID: 8706521303822714371}
+   m_Layer: 0
+   m_Name: Student
+   m_TagString: Untagged
+@@ -123,3 +127,56 @@
+   m_Offset: {x: 0, y: 0}
+   m_Size: {x: 1, y: 2}
+   m_Direction: 0
++--- !u!114 &1107324495659067876
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7611229223234598641}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 228569bddf6523d4ab9885c54b7a6c49, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  tags:
++  - {fileID: 11400000, guid: ed307d47842534fd7a92799b044baf5b, type: 2}
++--- !u!114 &4552371999501468507
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7611229223234598641}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 3165969da4104f3b97c0a4ee8fada7b6, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++  enemySettings: {fileID: 11400000, guid: bd01a3c89b92141fb8d4665d24eb95e8, type: 2}
++  enemyHealth: {fileID: 9204590487289830833}
++  enemyDeath: {fileID: 8706521303822714371}
++--- !u!114 &9204590487289830833
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7611229223234598641}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: 85a2b0e7e3ca4ef7a489cba14e3afbea, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
++--- !u!114 &8706521303822714371
++MonoBehaviour:
++  m_ObjectHideFlags: 0
++  m_CorrespondingSourceObject: {fileID: 0}
++  m_PrefabInstance: {fileID: 0}
++  m_PrefabAsset: {fileID: 0}
++  m_GameObject: {fileID: 7611229223234598641}
++  m_Enabled: 1
++  m_EditorHideFlags: 0
++  m_Script: {fileID: 11500000, guid: bd7d14fde2b14723b103ba51373a893b, type: 3}
++  m_Name: 
++  m_EditorClassIdentifier: 
+Index: Assets/Scripts/Player/InputSystem.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/InputSystem.cs b/Assets/Scripts/Characters/Player/InputSystem.cs
+rename from Assets/Scripts/Player/InputSystem.cs
+rename to Assets/Scripts/Characters/Player/InputSystem.cs
+--- a/Assets/Scripts/Player/InputSystem.cs	
++++ b/Assets/Scripts/Characters/Player/InputSystem.cs	
+@@ -1,7 +1,6 @@
+-using UnityEngine;
+ using UnityEngine.InputSystem;
+ 
+-namespace Player
++namespace Characters.Player
+ {
+     public class InputSystem
+     {
+Index: Assets/Scripts/Characters/Interfaces/IDie.cs
+===================================================================
+diff --git a/Assets/Scripts/Characters/Interfaces/IDie.cs b/Assets/Scripts/Characters/Interfaces/IDie.cs
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Interfaces/IDie.cs	
+@@ -0,0 +1,7 @@
++namespace Characters.Interfaces
++{
++    public interface IDie
++    {
++        void Die();
++    }
++}
+\ No newline at end of file
+Index: Assets/Scripts/Characters/Interfaces/IDie.cs.meta
+===================================================================
+diff --git a/Assets/Scripts/Characters/Interfaces/IDie.cs.meta b/Assets/Scripts/Characters/Interfaces/IDie.cs.meta
+new file mode 100644
+--- /dev/null	
++++ b/Assets/Scripts/Characters/Interfaces/IDie.cs.meta	
+@@ -0,0 +1,3 @@
++fileFormatVersion: 2
++guid: 6e1bacd165f24d699eaf494dc771e20b
++timeCreated: 1670664261
+\ No newline at end of file
+Index: Assets/Scripts/Player/IFacade.cs
+===================================================================
+diff --git a/Assets/Scripts/Player/IFacade.cs b/Assets/Scripts/Characters/Interfaces/IFacade.cs
+rename from Assets/Scripts/Player/IFacade.cs
+rename to Assets/Scripts/Characters/Interfaces/IFacade.cs
+--- a/Assets/Scripts/Player/IFacade.cs	
++++ b/Assets/Scripts/Characters/Interfaces/IFacade.cs	
+@@ -1,6 +1,6 @@
+ using UnityEngine;
+ 
+-namespace Player
++namespace Characters.Interfaces
+ {
+     public interface IFacade
+     {
+diff --git a/Assets/Scripts/Player/CupThrow.cs.meta b/Assets/Scripts/Characters/Player/CupThrow.cs.meta
+rename from Assets/Scripts/Player/CupThrow.cs.meta
+rename to Assets/Scripts/Characters/Player/CupThrow.cs.meta
+diff --git a/Assets/Scripts/Player/IMovement.cs.meta b/Assets/Scripts/Characters/Interfaces/IMovement.cs.meta
+rename from Assets/Scripts/Player/IMovement.cs.meta
+rename to Assets/Scripts/Characters/Interfaces/IMovement.cs.meta

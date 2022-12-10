@@ -6,5 +6,7 @@ namespace Player
     public class PlayerSettings : ScriptableObject
     {
         public float playerSpeed;
+        public int throwDistance = 25;
+        public float cupCreationOffset;
     }
 }
