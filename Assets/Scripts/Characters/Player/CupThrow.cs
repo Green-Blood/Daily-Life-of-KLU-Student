@@ -34,6 +34,7 @@ namespace Characters.Player
             var itemRigidBody = item.GetComponent<Rigidbody2D>();
 
             itemRigidBody.AddForce(_movement.Direction * _playerSettings.throwDistance, ForceMode2D.Impulse);
+            
 
             // await UniTask.NextFrame();
         }

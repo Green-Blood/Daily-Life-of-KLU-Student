@@ -1,8 +1,5 @@
-using System;
 using Characters.Interfaces;
-using Characters.Player;
-// using Characters.Interfaces;
-// using Characters.Player;
+using Characters.Player; 
 using UnityEngine;
 
 namespace Cups
@@ -11,6 +8,8 @@ namespace Cups
     {
         [SerializeField] private PlayerSettings playerSettings;
         [SerializeField] private TriggerObserver triggerObserver;
+        [SerializeField] private float rotateSpeed = 100;
+
 
         private void Awake() => triggerObserver.OnEnter += OnDamageableEnter;
 
@@ -20,8 +19,15 @@ namespace Cups
             {
                 damageable.TakeDamage(playerSettings.cupDamage);
             }
+
             gameObject.SetActive(false);
         }
+
+        private void Update()
+        {
+            transform.Rotate(0, 0, rotateSpeed * Time.deltaTime);
+        }
+
 
         private void OnDestroy() => triggerObserver.OnEnter -= OnDamageableEnter;
     }

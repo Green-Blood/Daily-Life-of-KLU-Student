@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 50983e6650c64af488364cb484a5963d, type: 3}
   m_Name: GameSettings
   m_EditorClassIdentifier: 
-  tomSpawnDelay: 2
+  tomSpawnDelay: 0.5

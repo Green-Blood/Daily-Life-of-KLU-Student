@@ -2,15 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Tom's up">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/LICENSE.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/ConditionalFollow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/ConditionalFollow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SimpleController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SimpleController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SquishIndefinitely.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SquishIndefinitely.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TimedSquishing.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TimedSquishing.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TriggerMapper2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TriggerMapper2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/demo_script.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/demo_script.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/ConditionalDialogueTriggerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/ConditionalDialogueTriggerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueCallbackBank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueCallbackBank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueTriggerBehavior.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueTriggerBehavior.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/CharacterBank.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/CharacterBank.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/Cutscene.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/Cutscene.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/DialogueStructs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/DialogueStructs.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/SerializableGuid.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/SerializableGuid.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/TextIterator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/TextIterator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Settings/GameSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Settings/GameSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Student.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IFacade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/AudioManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ClusterInputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/GraphicsSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/InputManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/PresetManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TimeManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/VFXManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,12 +65,17 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Actions/Player Action.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Cup.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Characters/Interfaces/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/GraphicsSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -230,6 +274,7 @@
     <MESSAGE value="Update: Enemy attack" />
     <MESSAGE value="Update: Scene Update" />
     <MESSAGE value="Update: Tom's up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Tom's up" />
+    <MESSAGE value="Fix: layers fix4" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: layers fix4" />
   </component>
 </project>
