@@ -1,26 +1,29 @@
 using System;
 
-public static class WithExtension
+namespace ExtentionMethods
 {
-    public static T With<T>(this T self, Action<T> set)
+    public static class WithExtension
     {
-        set.Invoke(self);
-        return self;
-    }
+        public static T With<T>(this T self, Action<T> set)
+        {
+            set.Invoke(self);
+            return self;
+        }
 
-    public static T With<T>(this T self, Action<T> apply, Func<bool> when)
-    {
-        if (when())
-            apply?.Invoke(self);
+        public static T With<T>(this T self, Action<T> apply, Func<bool> when)
+        {
+            if (when())
+                apply?.Invoke(self);
 
-        return self;
-    }
+            return self;
+        }
 
-    public static T With<T>(this T self, Action<T> apply, bool when)
-    {
-        if (when)
-            apply?.Invoke(self);
+        public static T With<T>(this T self, Action<T> apply, bool when)
+        {
+            if (when)
+                apply?.Invoke(self);
 
-        return self;
+            return self;
+        }
     }
 }

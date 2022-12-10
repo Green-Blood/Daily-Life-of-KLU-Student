@@ -1,63 +1,61 @@
 using System;
 using System.Collections.Generic;
+using ExtentionMethods;
 using Interfaces;
 using JetBrains.Annotations;
 using UnityEngine;
 
-namespace ExtentionMethods.Object_Pooler
+public class ObjectPooler : SingletonClass<ObjectPooler>
 {
-    public class ObjectPooler : MonoBehaviour
+    #region Pool struct
+
+    [Serializable]
+    public struct Pool
     {
-        #region Pool struct
+        public Tag tag;
+        public GameObject prefab;
+        public int size;
+        [CanBeNull] public Transform parent;
+    }
 
-        [Serializable]
-        public struct Pool
+    #endregion
+
+    [SerializeField] private List<Pool> pools;
+    private Dictionary<Tag, Queue<GameObject>> _poolDictionary;
+
+    private void OnEnable()
+    {
+        _poolDictionary = new Dictionary<Tag, Queue<GameObject>>();
+
+        foreach (var pool in pools)
         {
-            public Tag tag;
-            public GameObject prefab;
-            public int size;
-            [CanBeNull] public Transform parent;
-        }
+            Queue<GameObject> objectPool = new Queue<GameObject>();
 
-        #endregion
-
-        [SerializeField] private List<Pool> pools;
-        private Dictionary<Tag, Queue<GameObject>> _poolDictionary;
-
-        private void OnEnable()
-        {
-            _poolDictionary = new Dictionary<Tag, Queue<GameObject>>();
-
-            foreach (var pool in pools)
+            for (int i = 0; i < pool.size; i++)
             {
-                Queue<GameObject> objectPool = new Queue<GameObject>();
-
-                for (int i = 0; i < pool.size; i++)
-                {
-                    GameObject instantiatedObject = Instantiate(pool.prefab, pool.parent);
-                    instantiatedObject.SetActive(false);
-                    objectPool.Enqueue(instantiatedObject);
-                }
-
-                _poolDictionary.Add(pool.tag, objectPool);
+                GameObject instantiatedObject = Instantiate(pool.prefab, pool.parent);
+                instantiatedObject.SetActive(false);
+                objectPool.Enqueue(instantiatedObject);
             }
+
+            _poolDictionary.Add(pool.tag, objectPool);
         }
+    }
 
-        public GameObject SpawnFromPool(Tag objectTag, Vector3 position, Quaternion rotation)
-        {
-            GameObject objectToSpawn = _poolDictionary[objectTag].Dequeue();
+    public GameObject SpawnFromPool(Tag objectTag, Vector3 position, Quaternion rotation)
+    {
+        GameObject objectToSpawn = _poolDictionary[objectTag].Dequeue();
 
-            objectToSpawn.SetActive(true);
-            objectToSpawn.transform.position = position;
-            objectToSpawn.transform.rotation = rotation;
+        objectToSpawn.SetActive(true);
+        objectToSpawn.transform.position = position;
+        objectToSpawn.transform.rotation = rotation;
 
 
-            IPooledObject pooledObject = objectToSpawn.GetComponent<IPooledObject>();
+        IPooledObject pooledObject = objectToSpawn.GetComponent<IPooledObject>();
 
-            pooledObject?.OnObjectSpawn();
-            _poolDictionary[objectTag].Enqueue(objectToSpawn);
+        pooledObject?.OnObjectSpawn();
+        _poolDictionary[objectTag].Enqueue(objectToSpawn);
 
-            return objectToSpawn;
-        }
+        return objectToSpawn;
     }
 }

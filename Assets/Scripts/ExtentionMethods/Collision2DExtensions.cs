@@ -1,7 +1,7 @@
 using System.Linq;
 using UnityEngine;
 
-namespace Extensions
+namespace ExtentionMethods
 {
     public static class Collision2DExtensions
     {
