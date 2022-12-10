@@ -4,6 +4,9 @@ namespace Core
     {
         GameStart,
         GameEnd,
+        TomCanStart,
+        TomStart,
+        TomEnd,
         GameFinish,
     }
 }

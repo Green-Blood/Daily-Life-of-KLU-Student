@@ -20,6 +20,7 @@ namespace Cups
             {
                 damageable.TakeDamage(playerSettings.cupDamage);
             }
+            gameObject.SetActive(false);
         }
 
         private void OnDestroy() => triggerObserver.OnEnter -= OnDamageableEnter;

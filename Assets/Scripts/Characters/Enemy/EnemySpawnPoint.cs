@@ -1,4 +1,6 @@
+using System;
 using ExtentionMethods.Object_Pooler;
+using UniRx;
 using UnityEngine;
 
 namespace Characters.Enemy
@@ -16,6 +18,7 @@ namespace Characters.Enemy
 
         public void SpawnEnemy()
         {
+            // Observable.Timer(TimeSpan.FromSeconds())
             var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
             enemy.GetComponent<EnemyBootstrap>().Construct(_enemyTransform);
         }

@@ -11,6 +11,7 @@ namespace Core
         private StateMachine _stateMachine;
         [SerializeField] private PlayerBootstrap playerBootstrap;
         [SerializeField] private EnemySpawnPoint[] enemySpawnPoints;
+        [SerializeField] private GameTrigger[] gameTriggers;
         [SerializeField] private ObjectPooler objectPooler;
         [SerializeField] private GameCanvas gameCanvas;
 
@@ -25,6 +26,7 @@ namespace Core
             InitStateMachine();
             ConstructPlayer();
             ConstructEnemies();
+            ConstructTriggers();
 
             gameCanvas.Construct(playerBootstrap);
 
@@ -39,6 +41,14 @@ namespace Core
                 enemySpawnPoint.Construct(objectPooler, playerBootstrap.transform);
                 // TODO Change it to the right place
                 enemySpawnPoint.SpawnEnemy();
+            }
+        }
+
+        private void ConstructTriggers()
+        {
+            foreach (var gameTrigger in gameTriggers)
+            {
+                gameTrigger.Construct(_stateMachine);
             }
         }
 

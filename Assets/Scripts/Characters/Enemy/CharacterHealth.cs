@@ -25,6 +25,7 @@ namespace Characters.Enemy
             Validate();
 
             OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
+            Debug.Log("Current health of " + gameObject.name + " is "  + _currentHealth  ) ;
             if (_currentHealth <= 0) _characterDeath.Die();
         }
 

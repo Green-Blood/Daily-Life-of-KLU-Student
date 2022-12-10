@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a52c65a735e0411f85f6082537be6ffd, type: 3}
   m_Name: PlayerSettings
   m_EditorClassIdentifier: 
-  playerSpeed: 10
+  characterSpeed: 10
+  characterHealth: 100
   throwDistance: 15
   cupCreationOffset: 0
+  cupDamage: 10

@@ -4,13 +4,13 @@ namespace Core
 {
     public class StateMachine
     {
-        private State _currentState;
+        public State CurrentState { get; private set; }
         public Action<State> OnStateChange;
 
         public void Enter(State state)
         {
-            _currentState = state;
-            OnStateChange?.Invoke(_currentState);
+            CurrentState = state;
+            OnStateChange?.Invoke(CurrentState);
         }
     }
 }
