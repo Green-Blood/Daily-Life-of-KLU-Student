@@ -9,7 +9,6 @@ namespace Player
         [SerializeField] private PlayerFacade playerFacade;
         [SerializeField] private PlayerSettings playerSettings;
         [SerializeField] private PlayerInput playerInput;
-        [SerializeField] private ObjectPooler objectPooler;
         [SerializeField] private Tag cupTag;
 
 
@@ -17,7 +16,7 @@ namespace Player
         private InputSystem _inputSystem;
         private CupThrow _playerThrow;
 
-        public void Construct()
+        public void Construct(ObjectPooler objectPooler)
         {
             _inputSystem = new InputSystem(playerInput);
             _playerMovement = new PlayerMovement(playerFacade, playerSettings, _inputSystem);

@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 1772576097850411470}
   - component: {fileID: 830816702077290087}
   - component: {fileID: 5992486884315550208}
+  - component: {fileID: 782064139095120129}
+  - component: {fileID: 5687552981393035259}
   m_Layer: 7
   m_Name: Cup
   m_TagString: Untagged
@@ -75,7 +77,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -118,7 +120,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -148,3 +150,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tags:
   - {fileID: 11400000, guid: e63b8917faac14f9fb22701f2f72274f, type: 2}
+--- !u!114 &782064139095120129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7423017304342902661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d8dd389eb59f4f36b57434f3d2f8f73, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSettings: {fileID: 11400000, guid: 5e56d08af670842d1a04e680bcd3e536, type: 2}
+  triggerObserver: {fileID: 5687552981393035259}
+--- !u!114 &5687552981393035259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7423017304342902661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9c3e11d654043f09f8ed50e0f211bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

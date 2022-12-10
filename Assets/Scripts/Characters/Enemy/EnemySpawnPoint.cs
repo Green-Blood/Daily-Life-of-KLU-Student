@@ -14,8 +14,8 @@ namespace Characters.Enemy
 
         public void SpawnEnemy()
         {
-            // var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
-            // enemy.GetComponent<EnemyBootstrapper>().Construct();
+            var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
+            enemy.GetComponent<EnemyBootstrap>().Construct();
         }
         
     }

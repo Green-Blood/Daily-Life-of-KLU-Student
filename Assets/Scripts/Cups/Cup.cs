@@ -15,10 +15,10 @@ namespace Cups
 
         private void OnDamageableEnter(Collider2D other)
         {
-            // if (other.TryGetComponent(out IDamageable damageable))
-            // {
-                // damageable.TakeDamage(playerSettings.cupDamage);
-            // }
+            if (other.TryGetComponent(out IDamageable damageable))
+            {
+                damageable.TakeDamage(playerSettings.cupDamage);
+            }
         }
 
         private void OnDestroy() => triggerObserver.OnEnter -= OnDamageableEnter;

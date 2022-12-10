@@ -8,5 +8,6 @@ namespace Player
         public float playerSpeed;
         public int throwDistance = 25;
         public float cupCreationOffset;
+        public int cupDamage = 20;
     }
 }

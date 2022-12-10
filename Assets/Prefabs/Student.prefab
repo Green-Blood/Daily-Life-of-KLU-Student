@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 7611229223234598645}
   - component: {fileID: 7611229223234598642}
   - component: {fileID: 1107324495659067876}
-  - component: {fileID: 4552371999501468507}
-  - component: {fileID: 9204590487289830833}
-  - component: {fileID: 8706521303822714371}
+  - component: {fileID: 7977355632036604849}
+  - component: {fileID: 1394907856475969171}
+  - component: {fileID: 5459002645793399377}
   m_Layer: 0
   m_Name: Student
   m_TagString: Untagged
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tags:
   - {fileID: 11400000, guid: ed307d47842534fd7a92799b044baf5b, type: 2}
---- !u!114 &4552371999501468507
+--- !u!114 &7977355632036604849
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -150,13 +150,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 7611229223234598641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3165969da4104f3b97c0a4ee8fada7b6, type: 3}
+  m_Script: {fileID: 11500000, guid: 137de1b59a42462b832fc2bcec83585f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  enemyHealth: {fileID: 1394907856475969171}
+  enemyDeath: {fileID: 5459002645793399377}
   enemySettings: {fileID: 11400000, guid: bd01a3c89b92141fb8d4665d24eb95e8, type: 2}
-  enemyHealth: {fileID: 9204590487289830833}
-  enemyDeath: {fileID: 8706521303822714371}
---- !u!114 &9204590487289830833
+--- !u!114 &1394907856475969171
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -165,10 +165,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 7611229223234598641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 85a2b0e7e3ca4ef7a489cba14e3afbea, type: 3}
+  m_Script: {fileID: 11500000, guid: 06e03299cd364f12b5f50162bf5ffa17, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &8706521303822714371
+--- !u!114 &5459002645793399377
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -177,6 +177,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 7611229223234598641}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd7d14fde2b14723b103ba51373a893b, type: 3}
+  m_Script: {fileID: 11500000, guid: b0c5e058048f4d96991a9b3611ea4232, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
