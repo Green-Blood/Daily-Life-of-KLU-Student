@@ -35,9 +35,8 @@ namespace Characters.Player
 
         public void Move()
         {
-            
             var normalizedInput = _moveInput.normalized;
-            Debug.Log(normalizedInput);
+           
             if (normalizedInput.sqrMagnitude > .1f) Direction = _moveInput.normalized;
 
             _rigidbody2D.MovePosition(_rigidbody2D.position + normalizedInput * _playerSpeed * Time.deltaTime);

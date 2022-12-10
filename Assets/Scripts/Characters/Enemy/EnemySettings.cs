@@ -7,5 +7,9 @@ namespace Characters.Enemy
     public class EnemySettings : CharacterSettings
     {
         public float attackCooldown = 1f;
+        public float attackDistance = 1f;
+        public float attackRadius = 0.5f;
+        public int attackDamage = 10;
+        public LayerMask pLayerMask;
     }
 }
