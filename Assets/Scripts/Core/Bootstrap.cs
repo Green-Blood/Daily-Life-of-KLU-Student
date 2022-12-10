@@ -33,7 +33,7 @@ namespace Core
         {
             foreach (var enemySpawnPoint in enemySpawnPoints)
             {
-                enemySpawnPoint.Construct(objectPooler);
+                enemySpawnPoint.Construct(objectPooler, playerBootstrap.transform);
                 // TODO Change it to the right place
                 enemySpawnPoint.SpawnEnemy();
             }

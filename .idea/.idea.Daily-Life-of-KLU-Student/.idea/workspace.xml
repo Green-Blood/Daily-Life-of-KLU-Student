@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Enemy Death, Enemy Health, Enemy Settings, Damage, Cup damage" />
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Adjusted namespaces">
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,6 +24,7 @@
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
@@ -162,7 +167,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670670647663</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Update: Adjusted namespaces">
+      <created>1670670762839</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670670762839</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +201,7 @@
     <MESSAGE value="Update: Scene update" />
     <MESSAGE value="Update: Enemeis" />
     <MESSAGE value="Update: Enemy Death, Enemy Health, Enemy Settings, Damage, Cup damage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Enemy Death, Enemy Health, Enemy Settings, Damage, Cup damage" />
+    <MESSAGE value="Update: Adjusted namespaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Adjusted namespaces" />
   </component>
 </project>

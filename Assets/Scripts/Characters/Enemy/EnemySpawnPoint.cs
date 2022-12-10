@@ -7,16 +7,17 @@ namespace Characters.Enemy
     {
         [SerializeField] private Tag enemyTag;
         private ObjectPooler _objectPooler;
-
-        public void Construct(ObjectPooler objectPooler)
+        private Transform _enemyTransform;
+        public void Construct(ObjectPooler objectPooler, Transform enemyTransform)
         {
             _objectPooler = objectPooler;
+            _enemyTransform = enemyTransform;
         }
 
         public void SpawnEnemy()
         {
             var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
-            enemy.GetComponent<EnemyBootstrap>().Construct();
+            enemy.GetComponent<EnemyBootstrap>().Construct(_enemyTransform);
         }
         
     }

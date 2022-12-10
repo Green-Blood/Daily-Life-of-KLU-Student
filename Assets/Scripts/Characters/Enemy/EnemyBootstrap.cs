@@ -1,4 +1,6 @@
+using System;
 using UnityEngine;
+using UnityEngine.AI;
 
 namespace Characters.Enemy
 {
@@ -7,10 +9,19 @@ namespace Characters.Enemy
         [SerializeField] private EnemyHealth enemyHealth;
         [SerializeField] private EnemyDeath enemyDeath;
         [SerializeField] private EnemySettings enemySettings;
+        [SerializeField] private NavMeshAgent agent;
 
-        public void Construct()
+        private Transform _playerTransform;
+
+        public void Construct(Transform playerTransform)
         {
             enemyHealth.Construct(enemySettings, enemyDeath);
+            _playerTransform = playerTransform;
+        }
+
+        private void Update()
+        {
+            agent.SetDestination(_playerTransform.position);
         }
     }
 }
