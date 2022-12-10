@@ -21,7 +21,7 @@ namespace Characters.Enemy
 
         private void Update()
         {
-            agent.SetDestination(_playerTransform.position);
+            // agent.SetDestination(_playerTransform.position);
         }
     }
 }

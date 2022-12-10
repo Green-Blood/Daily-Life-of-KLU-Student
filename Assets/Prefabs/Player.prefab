@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 7201640417647188889}
   - component: {fileID: 7201640417647188888}
   - component: {fileID: 7201640417647188891}
+  - component: {fileID: 5177686632775010954}
   m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
@@ -75,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -204106497
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -9095717837082945937, guid: 207ee8102dd4143d288186ef0be518ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -141,7 +142,7 @@ MonoBehaviour:
   playerFacade: {fileID: 7201640417647188888}
   playerSettings: {fileID: 11400000, guid: 5e56d08af670842d1a04e680bcd3e536, type: 2}
   playerInput: {fileID: 7201640417647188891}
-  objectPooler: {fileID: 0}
+  playerHealth: {fileID: 5177686632775010954}
   cupTag: {fileID: 11400000, guid: e63b8917faac14f9fb22701f2f72274f, type: 2}
 --- !u!114 &7201640417647188888
 MonoBehaviour:
@@ -186,3 +187,15 @@ MonoBehaviour:
   m_DefaultActionMap: Player
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &5177686632775010954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7201640417647188866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e03299cd364f12b5f50162bf5ffa17, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

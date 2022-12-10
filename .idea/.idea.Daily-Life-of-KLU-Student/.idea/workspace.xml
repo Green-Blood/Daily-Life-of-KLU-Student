@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: NavmeshComponents">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyAttack.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyAttack.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CharacterSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CharacterSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/CharacterHealth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/CharacterHealth.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/NavMeshComponents" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/NavMeshComponents" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,60 +23,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Actions/Player Action.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Cup.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Prefabs/Student.prefab" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Collision2DExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/DataExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Object Pooler/Interfaces/IPooledObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/SingletonClass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/SingletonClass.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/TransformExtensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/Vector3Extensions.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/WithExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/ExtentionMethods/WithExtension.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/CupThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IFacade.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IThrow.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/IThrow.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/InputSystem.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/InputSystem.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerBootstrap.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerFacade.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerFacade.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerMovement.cs.meta" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Player/PlayerSettings.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/Physics2DSettings.asset" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -149,6 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1670606915029</updated>
       <workItem from="1670606920201" duration="3942000" />
+      <workItem from="1670677219317" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="Update: PlayerAttack logic">
       <created>1670620411469</created>
