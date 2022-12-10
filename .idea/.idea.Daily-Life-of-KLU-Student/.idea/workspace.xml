@@ -1,31 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Scene update">
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Enemeis">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyBootstrap.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDeath.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyDeath.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyHealth.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySettings.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDamageable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDamageable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDie.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IDie.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/CupThrow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IFacade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IFacade.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IThrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/IThrow.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/IThrow.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/InputSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/InputSystem.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/InputSystem.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerAttack.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerAttack.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerBootstrap.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerFacade.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerFacade.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerMovement.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerMovement.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Player/PlayerSettings.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Settings/EnemySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Settings/EnemySettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Cup.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Student.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerSettings.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/PlayerAttack" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
   </component>
@@ -172,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670667292128</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update: Enemeis">
+      <created>1670669279729</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670669279729</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -197,6 +202,7 @@
     <MESSAGE value="Update: PlayerAttack logic" />
     <MESSAGE value="Update: Player attack" />
     <MESSAGE value="Update: Scene update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Scene update" />
+    <MESSAGE value="Update: Enemeis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Enemeis" />
   </component>
 </project>
