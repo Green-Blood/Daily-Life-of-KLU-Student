@@ -11,5 +11,6 @@ namespace Characters.Enemy
         public float attackRadius = 0.5f;
         public int attackDamage = 10;
         public LayerMask pLayerMask;
+        public float spawnCooldown = 3f;
     }
 }

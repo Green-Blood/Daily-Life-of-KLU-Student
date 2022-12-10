@@ -39,15 +39,25 @@ namespace Characters.Enemy
         public void TryAttack()
         {
             Collider2D[] results = new Collider2D[2];
-            var size = Physics2D.OverlapCircleNonAlloc(_agent.destination - _agent.transform.position,
+            Physics2D.OverlapCircleNonAlloc(_agent.destination - transform.position,
                 _enemySettings.attackRadius, results, _enemySettings.pLayerMask);
+            Debug.Log("Has Attacked ");
             _canAttack = false;
             _currentCooldown = _enemySettings.attackCooldown;
+
             if (results[0] == null) return;
+            Debug.Log("Result is " + results[0]);
             if (results[0].TryGetComponent<IDamageable>(out var damageable))
                 damageable.TakeDamage(_enemySettings.attackDamage);
+            Debug.Log("Trying to take damage");
         }
 
         private bool IsInDistance() => _agent.remainingDistance <= _enemySettings.attackDistance;
+
+        private void OnDrawGizmos()
+        {
+            Gizmos.color = Color.red;
+            Gizmos.DrawWireSphere(transform.position + (_agent.destination - transform.position), _enemySettings.attackRadius);
+        }
     }
 }
