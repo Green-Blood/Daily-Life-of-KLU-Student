@@ -1,11 +1,12 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
-public static class TransformExtensions 
+namespace ExtentionMethods
 {
-        public static Vector3 DirectionTo(this Transform source, Transform destination)
+        public static class TransformExtensions 
         {
-                return source.position.DirectionTo(destination.position);
+                public static Vector3 DirectionTo(this Transform source, Transform destination)
+                {
+                        return source.position.DirectionTo(destination.position);
+                }
         }
 }

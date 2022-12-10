@@ -1,5 +1,7 @@
 using System;
-using Player;
+using Characters.Enemy;
+using Characters.Player;
+using ExtentionMethods.Object_Pooler;
 using UnityEngine;
 
 namespace Core
@@ -8,6 +10,10 @@ namespace Core
     {
         private StateMachine _stateMachine;
         [SerializeField] private PlayerBootstrap playerBootstrap;
+        [SerializeField] private EnemySpawnPoint[] enemySpawnPoints;
+        [SerializeField] private ObjectPooler objectPooler;
+        [SerializeField] private GameCanvas gameCanvas;
+
 
         private void Awake()
         {
@@ -16,13 +22,32 @@ namespace Core
 
         private void Start()
         {
-            _stateMachine.OnStateChange += OnStateChange;
-            _stateMachine.Enter(State.GameStart);
+            InitStateMachine();
+            ConstructPlayer();
+            ConstructEnemies();
 
-            playerBootstrap.Construct();
+            gameCanvas.Construct(playerBootstrap);
 
             // TODO Change it with the game state 
             playerBootstrap.StartPlayer();
+        }
+
+        private void ConstructEnemies()
+        {
+            foreach (var enemySpawnPoint in enemySpawnPoints)
+            {
+                enemySpawnPoint.Construct(objectPooler, playerBootstrap.transform);
+                // TODO Change it to the right place
+                enemySpawnPoint.SpawnEnemy();
+            }
+        }
+
+        private void ConstructPlayer() => playerBootstrap.Construct(objectPooler);
+
+        private void InitStateMachine()
+        {
+            _stateMachine.OnStateChange += OnStateChange;
+            _stateMachine.Enter(State.GameStart);
         }
 
         private void OnStateChange(State state)
