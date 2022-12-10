@@ -12,7 +12,7 @@ namespace Characters.Enemy
         private ObjectPooler _objectPooler;
         private Transform _playerTransform;
         private EnemySettings _enemySettings;
-        private bool _canSpawn;
+        private bool _canSpawn = true;
 
         public void Construct(ObjectPooler objectPooler, Transform playerTransform)
         {
