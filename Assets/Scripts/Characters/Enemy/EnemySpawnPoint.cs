@@ -1,5 +1,5 @@
 using System;
-using Core;
+using System.Collections.Generic;
 using ExtentionMethods.Object_Pooler;
 using UniRx;
 using UnityEngine;
@@ -13,31 +13,43 @@ namespace Characters.Enemy
         private Transform _playerTransform;
         private EnemySettings _enemySettings;
         private bool _canSpawn = true;
+        private List<GameObject> _spawnedEnemy;
 
         public void Construct(ObjectPooler objectPooler, Transform playerTransform)
         {
             _objectPooler = objectPooler;
             _playerTransform = playerTransform;
+            _spawnedEnemy = new List<GameObject>();
         }
 
-        public void SpawnTom(float spawnDelay )
+        public void SpawnTom(float spawnDelay)
         {
             Observable.Timer(TimeSpan.FromSeconds(spawnDelay)).Subscribe((l =>
             {
                 var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
                 enemy.GetComponent<TomBootstrap>().Construct(_playerTransform);
             }));
-            
         }
 
         public void SpawnEnemy()
         {
-            var observable = Observable.Timer(TimeSpan.FromSeconds(4)).Repeat().Subscribe((l =>
+            Observable.Timer(TimeSpan.FromSeconds(4)).Repeat().Subscribe((l =>
             {
-                if(!_canSpawn) return;
+                if (!_canSpawn) return;
                 var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
-                enemy.GetComponent<EnemyBootstrap>().Construct(_playerTransform);
+                var enemyBootstrap = enemy.GetComponent<EnemyBootstrap>();
+                enemyBootstrap.Construct(_playerTransform);
+                _spawnedEnemy.Add(enemy);
             }));
+        }
+
+        public void DespawnSpawnedEnemy()
+        {
+            foreach (var spawnedEnemy in _spawnedEnemy)
+            {
+                spawnedEnemy.SetActive(false);
+            }
+            _spawnedEnemy.Clear();
         }
 
         public void StopSpawn() => _canSpawn = false;
