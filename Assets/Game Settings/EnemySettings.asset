@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: EnemySettings
   m_EditorClassIdentifier: 
   characterSpeed: 5
-  characterHealth: 100
+  characterHealth: 10
   attackCooldown: 1
   attackDistance: 1.5
   attackRadius: 0.5

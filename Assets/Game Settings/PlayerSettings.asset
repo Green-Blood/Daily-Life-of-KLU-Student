@@ -16,4 +16,4 @@ MonoBehaviour:
   characterHealth: 100
   throwDistance: 15
   cupCreationOffset: 0
-  cupDamage: 20
+  cupDamage: 10
