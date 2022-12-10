@@ -9,25 +9,29 @@ namespace Core
 {
     public class Bootstrap : MonoBehaviour
     {
-        [BoxGroup("SpawnPoints")]
-        [SerializeField] private EnemySpawnPoint[] enemySpawnPoints;
-        [BoxGroup("SpawnPoints")] 
-        [SerializeField] private EnemySpawnPoint tomSpawnPoint;
+        [BoxGroup("SpawnPoints")] [SerializeField]
+        private EnemySpawnPoint[] enemySpawnPoints;
 
-        [BoxGroup("UI")] 
-        [SerializeField] private GameCanvas gameCanvas;
+        [BoxGroup("SpawnPoints")] [SerializeField]
+        private EnemySpawnPoint tomSpawnPoint;
 
-        [BoxGroup("Game Scripts")] 
-        [SerializeField] private PlayerBootstrap playerBootstrap;
-        [BoxGroup("Game Scripts")] 
-        [SerializeField] private GameTrigger[] gameTriggers;
-        [BoxGroup("Game Scripts")] 
-        [SerializeField] private ObjectPooler objectPooler;
-        [BoxGroup("Settings")] 
-        [SerializeField] private GameSettings gameSettings;
-        
-        
+        [BoxGroup("UI")] [SerializeField] private GameCanvas gameCanvas;
+
+        [BoxGroup("Game Scripts")] [SerializeField]
+        private PlayerBootstrap playerBootstrap;
+
+        [BoxGroup("Game Scripts")] [SerializeField]
+        private GameTrigger[] gameTriggers;
+
+        [BoxGroup("Game Scripts")] [SerializeField]
+        private ObjectPooler objectPooler;
+
+        [BoxGroup("Settings")] [SerializeField]
+        private GameSettings gameSettings;
+
+
         private StateMachine _stateMachine;
+
         private void Awake()
         {
             _stateMachine = new StateMachine();
@@ -55,6 +59,7 @@ namespace Core
                 case State.TomStart:
                     StopEnemies();
                     StartTom();
+
                     break;
                 case State.TomEnd:
                     StartEnemies();
@@ -74,6 +79,7 @@ namespace Core
             foreach (var enemySpawnPoint in enemySpawnPoints)
             {
                 enemySpawnPoint.StopSpawn();
+                enemySpawnPoint.DespawnSpawnedEnemy();
             }
         }
 

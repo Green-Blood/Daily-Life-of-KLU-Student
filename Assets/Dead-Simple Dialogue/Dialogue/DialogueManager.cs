@@ -174,27 +174,27 @@ namespace Dossamer.Dialogue
 
         //bool waitFlag = false; // need to wait for a frame, otherwise first speech line gets skipped 
 
-        //void Update()
-        //{
-        //    if (DialogueManager.instance.GetIsDialogueActive())
-        //    {
-        //        if (waitFlag)
-        //        {
-        //            if (Input.GetButtonDown(continueButton))
-        //            {
-        //                DialogueManager.instance.UpdateDialogue();
-        //            }
-        //        }
-        //        else
-        //        {
-        //            waitFlag = true;
-        //        }
-        //    }
-        //    else
-        //    {
-        //        waitFlag = false; // reset flag
-        //    }
-        //}
+        // void Update()
+        // {
+        //     if (DialogueManager.instance.GetIsDialogueActive())
+        //     {
+        //         if (waitFlag)
+        //         {
+        //             if (Input.GetButtonDown(continueButton))
+        //             {
+        //                 DialogueManager.instance.UpdateDialogue();
+        //             }
+        //         }
+        //         else
+        //         {
+        //             waitFlag = true;
+        //         }
+        //     }
+        //     else
+        //     {
+        //         waitFlag = false; // reset flag
+        //     }
+        // }
 
         public void ProgressDialogue(InputAction.CallbackContext context)
         {

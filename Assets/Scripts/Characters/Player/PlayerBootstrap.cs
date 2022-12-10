@@ -29,6 +29,10 @@ namespace Characters.Player
                 _playerMovement);
         }
 
+        public void ToggleMovement(bool value)
+        {
+            _playerMovement.ToggleMovement(value);
+        }
 
         public void StartPlayer()
         {
