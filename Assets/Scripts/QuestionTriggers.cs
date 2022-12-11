@@ -14,6 +14,7 @@ public class QuestionTriggers : MonoBehaviour
     [SerializeField] private MMF_Player correctFeedback;
     [SerializeField] private MMF_Player inCorrectFeedback;
     [SerializeField] private MMF_Player winFeedback;
+    [SerializeField] private MMF_Player startFeedback;
     
 
     private int _currentQuestion;
@@ -31,6 +32,8 @@ public class QuestionTriggers : MonoBehaviour
 
         OnQuestionsFinished += FinishQuestions;
     }
+
+    public void PlayStartFeedbacks() => startFeedback.PlayFeedbacks();
 
     private void OnInCorrectQuestionTriggered()
     {

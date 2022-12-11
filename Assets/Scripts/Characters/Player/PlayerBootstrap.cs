@@ -31,17 +31,36 @@ namespace Characters.Player
                 _playerMovement);
             playerHealth.OnHealthChanged += OnHealthChanged;
             _stateMachine = stateMachine;
+            _stateMachine.OnStateChange += OnStateChange;
+        }
+
+        private void OnStateChange(State state)
+        {
+            if (state is State.TomStart or State.MathiasStart)
+            {
+                AudioSystem.Instance.StartBoss();
+            }
+            else if (state is State.MathiasCanStart or State.TomCanStart)
+            {
+                if (playerHealth.CurrentHealth == playerHealth.MaxHealth / 2)
+                {
+                    AudioSystem.Instance.StartExplore50();
+                }
+                else
+                {
+                    AudioSystem.Instance.StartExplore();
+                }
+            }
         }
 
         private void OnHealthChanged(int currentHealth, int maxHealth)
         {
             if (_stateMachine.CurrentState == State.MathiasCanStart || _stateMachine.CurrentState == State.TomCanStart)
             {
-                
-            }
-            if (currentHealth == maxHealth / 2)
-            {
-                AudioSystem.Instance.StartExplore50();
+                if (currentHealth < maxHealth / 2)
+                {
+                    AudioSystem.Instance.StartExplore50();
+                }
             }
         }
 
