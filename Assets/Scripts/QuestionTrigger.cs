@@ -7,20 +7,20 @@ public class QuestionTrigger : MonoBehaviour
     [SerializeField] private int damage = 25;
     
     public bool isCorrect;
+    public Action OnCorrectQuestionTriggered;
+    public Action OnInCorrectQuestionTriggered;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.TryGetComponent<PlayerBootstrap>(out var player))
+        if (!other.TryGetComponent<PlayerBootstrap>(out var player)) return;
+        if (isCorrect)
         {
-            if (isCorrect)
-            {
-                // ShowCorrect 
-            }
-            else
-            {
-                player.PlayerHealth.TakeDamage(damage);
-            }
-            
+            OnCorrectQuestionTriggered?.Invoke();
+        }
+        else
+        {
+            player.PlayerHealth.TakeDamage(damage);
+            OnInCorrectQuestionTriggered?.Invoke();
         }
     }
 }

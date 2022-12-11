@@ -1,95 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Fix: layers fix">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionSettings.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionSettings.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionUI.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionUI.cs.meta" afterDir="false" />
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Tom's death">
+      <change afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Questions Panel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Questions Panel.prefab.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Character/idle/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Character/idle/1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Character/idle/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Character/idle/2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Art/Character/idle/3.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Art/Character/idle/3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dead-Simple Dialogue Documentation.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dead-Simple Dialogue Documentation.pdf.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/Characters.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/Characters.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/PART1.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/PART1.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/PART2.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/PART2.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/Tom's talk.asset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Cutscenes/Tom's talk.asset.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/LICENSE.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleSceneSettings.lighting" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scenes/SampleSceneSettings.lighting.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/ConditionalFollow.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/ConditionalFollow.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SimpleController.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SimpleController.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SquishIndefinitely.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/SquishIndefinitely.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TimedSquishing.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TimedSquishing.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TriggerMapper2D.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Scripts/TriggerMapper2D.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Amphibian.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Amphibian.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Ghost.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Ghost.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Knight.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Knight.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Oldman.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Oldman.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Princess.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Princess.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Slime.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Slime.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Vampire.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Vampire.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Wizard.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/Wizard.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/pancakes-on-a-plate-vector-clipart_800.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/Textures/pancakes-on-a-plate-vector-clipart_800.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/dead-simple-dialogue.inputactions" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/dead-simple-dialogue.inputactions.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/demo_script.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Demo/demo_script.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/ConditionalDialogueTriggerBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/ConditionalDialogueTriggerBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueCallbackBank.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueCallbackBank.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueManager.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueTriggerBehavior.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/DialogueTriggerBehavior.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/CharacterBank.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/CharacterBank.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/Cutscene.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/Cutscene.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/DialogueStructs.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/Schema/DialogueStructs.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/SerializableGuid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/SerializableGuid.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/TextIterator.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Dead-Simple Dialogue/Dialogue/TextIterator.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Bold SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Feel/MMTools/Demos/MMTween/Fonts/Lato/SDF/Lato-Bold SDF.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,6 +33,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Characters/Interfaces/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -287,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670705688307</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Update: Question system">
+      <created>1670713276425</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1670713276425</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,6 +257,8 @@
     <MESSAGE value="Update: Tom's up" />
     <MESSAGE value="Fix: layers fix4" />
     <MESSAGE value="Fix: layers fix" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: layers fix" />
+    <MESSAGE value="Update: Question system" />
+    <MESSAGE value="Update: Tom's death" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: Tom's death" />
   </component>
 </project>

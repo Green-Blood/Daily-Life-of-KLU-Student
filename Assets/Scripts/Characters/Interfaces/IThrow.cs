@@ -4,6 +4,6 @@ namespace Characters.Interfaces
 {
     public interface IThrow
     {
-        public UniTask Throw();
+        public void Throw();
     }
 }
