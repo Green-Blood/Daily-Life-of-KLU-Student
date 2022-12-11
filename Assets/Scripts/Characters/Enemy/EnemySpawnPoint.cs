@@ -30,6 +30,14 @@ namespace Characters.Enemy
                 enemy.GetComponent<TomBootstrap>().Construct(_playerTransform);
             }));
         }
+        public void SpawnMathias(float gameSettingsTomSpawnDelay)
+        {
+            Observable.Timer(TimeSpan.FromSeconds(gameSettingsTomSpawnDelay)).Subscribe((l =>
+            {
+                var enemy = _objectPooler.SpawnFromPool(enemyTag, transform.position, Quaternion.identity);
+                enemy.GetComponent<MathiasBootstrap>().Construct(_playerTransform);
+            }));
+        }
 
         public void SpawnEnemy()
         {
@@ -54,5 +62,7 @@ namespace Characters.Enemy
 
         public void StopSpawn() => _canSpawn = false;
         public void AllowSpawn() => _canSpawn = true;
+
+       
     }
 }

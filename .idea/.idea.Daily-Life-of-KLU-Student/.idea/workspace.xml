@@ -1,19 +1,151 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Tom's death">
-      <change afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Questions Panel.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Questions Panel.prefab.meta" afterDir="false" />
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: AudioSystem is added">
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Asset 1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Asset 1.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Mathias.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Mathias/Mathias körper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Mathias/Mathias körper.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Mathias/Mathias.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Art/Character/Mathias/Mathias.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/Ambience_Boss_Rooms_Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/Ambience_Boss_Rooms_Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/Ambience_Corridors_Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/Ambience_Corridors_Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Intro_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Lose_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Lose_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Lose_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Lose_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Right_Answer_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Win.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Win.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Armin_Wrong_Answer_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro1_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro1_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro1_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro1_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro2.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Intro2.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Lose_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Lose_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Lose_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Lose_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Right_Answer_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Win_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Win_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Win_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Win_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Matthias_Wrong_Answer_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Intro.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Intro.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Lose.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Lose.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Right_Answer_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Win.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Win.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Wrong_Answer_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Wrong_Answer_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Wrong_Answer_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Boss_Tom_Wrong_Answer_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_01.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_01.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_02.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_02.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_03.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_03.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_04.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_04.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_05.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_05.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_06.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_06.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_07.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_07.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_08.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_08.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_09.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_09.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_10.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_10.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_11.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_11.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_12.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_12.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_13.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_13.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_14.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_14.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_15.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_15.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_16.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_16.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_17.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_17.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_18.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_18.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_19.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_19.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_20.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Characte_Footsteps_20.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Coffee_Machine.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Coffee_Machine.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_EnterBossRoom.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_EnterBossRoom.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Lamps_Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/GameJam2022/SFX_Lamps_Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Music_Explore_50_Health_Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Music_Explore_50_Health_Loop.wav.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Music_Explore_75Health_Loop.wav" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sounds/Music_Explore_75Health_Loop.wav.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Interfaces/IThrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/CupThrow.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Game Settings/Question/Characters.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Characters.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mathias.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mathias.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +166,12 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Characters/Interfaces/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/_Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/_Scenes/Game.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Actions/InputAction.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/ProjectSettings/AudioManager.asset" root0="SKIP_HIGHLIGHTING" />
@@ -218,7 +352,28 @@
       <option name="project" value="LOCAL" />
       <updated>1670713276425</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Update: Tom's death">
+      <created>1670748873925</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1670748873925</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update:">
+      <created>1670756731644</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670756731644</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Update: AudioSystem is added">
+      <created>1670761277495</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1670761277495</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -259,6 +414,8 @@
     <MESSAGE value="Fix: layers fix" />
     <MESSAGE value="Update: Question system" />
     <MESSAGE value="Update: Tom's death" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Tom's death" />
+    <MESSAGE value="Update:" />
+    <MESSAGE value="Update: AudioSystem is added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: AudioSystem is added" />
   </component>
 </project>
