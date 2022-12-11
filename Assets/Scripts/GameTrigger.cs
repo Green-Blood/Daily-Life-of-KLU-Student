@@ -11,12 +11,14 @@ public class GameTrigger : MonoBehaviour
     [SerializeField] private TriggerObserver triggerObserver;
     [SerializeField] private Cutscene cutscene;
     [SerializeField] private PlayerInput playerInput;
-    
+    [SerializeField] private State triggerState = State.TomCanStart;
+    [SerializeField] private State stateToStart = State.TomStart;
 
 
     private StateMachine _stateMachine;
 
     public void Construct(StateMachine stateMachine) => _stateMachine = stateMachine;
+
     private void OnEnable()
     {
         triggerObserver.OnEnter += OnPlayerEnter;
@@ -31,14 +33,13 @@ public class GameTrigger : MonoBehaviour
     private void OnPlayerEnter(Collider2D other)
     {
         if (!other.TryGetComponent<PlayerBootstrap>(out var playerBootstrap)) return;
-        if (_stateMachine.CurrentState == State.TomCanStart)
+        if (_stateMachine.CurrentState == triggerState)
         {
-            _stateMachine.Enter(State.TomStart);
+            _stateMachine.Enter(stateToStart);
             DialogueManager.Instance.StartNewDialogue(cutscene);
         }
     }
 
-     
 
     private void OnDisable() => triggerObserver.OnEnter -= OnPlayerEnter;
 }

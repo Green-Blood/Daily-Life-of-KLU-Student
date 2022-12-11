@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace ExtentionMethods.Object_Pooler
 {
-    public class ObjectPooler : SingletonClass<ObjectPooler>
+    public class ObjectPooler : MonoBehaviour
     {
         #region Pool struct
 

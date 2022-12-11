@@ -26,10 +26,29 @@ public class QuestionTriggers : MonoBehaviour
         OnQuestionsFinished += FinishQuestions;
     }
 
+    public void Construct(StateMachine stateMachine)
+    {
+        _stateMachine = stateMachine;
+        stateMachine.OnStateChange += OnStateChange;
+    }
+
+    private void OnStateChange(State state)
+    {
+        if (state == State.MathiasSecret)
+        {
+            gameObject.SetActive(false);
+            questionUI.FadeOutQuestionPanel(() =>
+            {
+                _stateMachine.Enter(State.GameEnd);
+            });
+            
+        }
+    }
+
     private void FinishQuestions()
     {
         gameObject.SetActive(false);
-        questionUI.FadeOutQuestionPanel();
+        questionUI.FadeOutQuestionPanel(null);
         DialogueManager.Instance.StartNewDialogue(tomEndCutscene);
     }
 

@@ -29,9 +29,13 @@ public class QuestionUI : MonoBehaviour
     }
 
 
-    public void FadeOutQuestionPanel()
+    public void FadeOutQuestionPanel(Action onFadeOutComplete)
     {
-        canvasGroup.DOFade(0, fadeOutDuration).OnComplete((() => { gameObject.SetActive(false); }));
+        canvasGroup.DOFade(0, fadeOutDuration).OnComplete((() =>
+        {
+            gameObject.SetActive(false);
+            onFadeOutComplete?.Invoke();
+        }));
     }
 
     public void FadeInQuestionPanel(Action onFadeInComplete)

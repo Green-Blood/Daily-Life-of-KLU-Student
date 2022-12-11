@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da68cc6c1304cb3b03945d2f69da66d, type: 3}
+  m_Name: MathiasQuestionSettings
+  m_EditorClassIdentifier: 
+  questions:
+  - questionName: What is not a part of the main game production?
+    questionVariant:
+    - Play football
+    - Art
+    - Sound
+    - Playtesting
+    rightAnswer: 0
+  - questionName: "What is one thing an game artist doesn\u2019t do?"
+    questionVariant:
+    - 3D modeling
+    - rigging
+    - programming
+    - texturing
+    rightAnswer: 2
+  - questionName: How high does a refresh rate needs to be to be smooth?
+    questionVariant:
+    - 420
+    - 69
+    - 1337
+    - 25
+    rightAnswer: 3
+  - questionName: Playtesting is?
+    questionVariant:
+    - Casual gaming
+    - A walk in the park
+    - Lan parties at gamejam
+    - Most important activity in game dev
+    rightAnswer: 3
+  - questionName: What is typically not part of a game jam?
+    questionVariant:
+    - Pitching
+    - Callisthenics
+    - Group building
+    - Brainstroming
+    rightAnswer: 1

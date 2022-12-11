@@ -14,6 +14,8 @@ namespace Core
 
         [BoxGroup("SpawnPoints")] [SerializeField]
         private EnemySpawnPoint tomSpawnPoint;
+        [BoxGroup("SpawnPoints")] [SerializeField]
+        private EnemySpawnPoint mathiasSpawnPoint;
 
         [BoxGroup("UI")] [SerializeField] private GameCanvas gameCanvas;
 
@@ -49,6 +51,8 @@ namespace Core
 
             gameCanvas.Construct(playerBootstrap);
             tomSpawnPoint.Construct(objectPooler, playerBootstrap.transform);
+            mathiasSpawnPoint.Construct(objectPooler, playerBootstrap.transform);
+            questionTriggers.Construct(_stateMachine);
             // questionTriggers.Construct(_stateMachine);
             // TODO Change it with the game state 
             playerBootstrap.StartPlayer();
@@ -57,7 +61,7 @@ namespace Core
 
         public void EndTomsQuestions()
         {
-            _stateMachine.Enter(State.TomEnd);
+            _stateMachine.Enter(State.MathiasCanStart);
         }
 
         private void OnStateChange(State state)
@@ -69,9 +73,12 @@ namespace Core
                     StartTom();
 
                     break;
-                case State.TomEnd:
+                case State.MathiasCanStart:
                     StartEnemies();
-                    
+                    break;
+                case State.MathiasStart:
+                    StopEnemies();
+                    StartMathias();
                     break;
             }
         }
@@ -79,6 +86,15 @@ namespace Core
         private void StartTom()
         {
             tomSpawnPoint.SpawnTom(gameSettings.tomSpawnDelay);
+        }
+        private void StartMathias()
+        {
+            mathiasSpawnPoint.SpawnMathias(gameSettings.tomSpawnDelay);
+        }
+
+        public void EndGame()
+        {
+            
         }
 
 
