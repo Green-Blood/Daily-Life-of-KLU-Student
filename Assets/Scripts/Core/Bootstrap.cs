@@ -133,7 +133,7 @@ namespace Core
             }
         }
 
-        private void ConstructPlayer() => playerBootstrap.Construct(objectPooler);
+        private void ConstructPlayer() => playerBootstrap.Construct(objectPooler, _stateMachine);
 
         private void InitStateMachine()
         {
