@@ -7,7 +7,7 @@ public class SceneSwitcher: MonoBehaviour {
     public void Game() {  
         SceneManager.LoadScene("Game");  
     }  
-    public void Start() {  
+    public void StartScene() {  
         SceneManager.LoadScene("Start");  
     }  
     public void Death() {  
