@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2a9460aae1c4420a415466d1db880f, type: 3}
+  m_Name: Mathias's talk
+  m_EditorClassIdentifier: 
+  Title: Mathias's talk
+  Exchanges:
+  - Lines:
+    - Text: So, you've reached me
+      Guid:
+        Value: 73e5f390-ee39-4fc2-8746-bb879efb729c
+    - Text: Now, you'll gonna die!
+      Guid:
+        Value: 66179da6-e4ef-4562-bae0-b71d86b8aafc
+    - Text: I mean die of tiredness
+      Guid:
+        Value: dieOftiredness
+    Speaker: Mathias
+    Guid:
+      Value: 0cff69e9-fe1f-4a82-8a12-3e9d850009ad
+  - Lines:
+    - Text: 'No, I want to die of '
+      Guid:
+        Value: 
+    - Text: having a lot of knowledge in my mind!
+      Guid:
+        Value: 
+    Speaker: Me
+    Guid:
+      Value: 
+  Guid:
+    Value: MathiasTalk
