@@ -62,6 +62,7 @@ namespace Characters.Player
                     AudioSystem.Instance.StartExplore50();
                 }
             }
+            
         }
 
         public void ToggleMovement(bool value)
