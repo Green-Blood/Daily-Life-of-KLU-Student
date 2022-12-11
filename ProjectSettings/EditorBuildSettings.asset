@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
     path: Assets/_Scenes/Start.unity
     guid: ee8576d6838e44cd9bb5e3b25b8d668d
   - enabled: 1
@@ -16,7 +13,7 @@ EditorBuildSettings:
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
     path: Assets/_Scenes/Death.unity
-    guid: 7574f47655a0e0c4580ecf345b538134
+    guid: 1a0eb74a9ea483f40a30d689965b4714
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: e8c2fd8c084044e3090869ba8b7aaef6,
       type: 2}
