@@ -26,15 +26,18 @@ namespace Characters.Player
             inputSystem.OnThrowInputAction.performed += OnThrow;
         }
 
-        private async void OnThrow(InputAction.CallbackContext inputCallback) => await Throw();
+        private void OnThrow(InputAction.CallbackContext inputCallback)
+        {
+            Throw();
+        }
 
-        public async UniTask Throw()
+        public void Throw()
         {
             var item = _objectPooler.SpawnFromPool(_throwTag, SetPositionOffset(), Quaternion.identity);
             var itemRigidBody = item.GetComponent<Rigidbody2D>();
 
             itemRigidBody.AddForce(_movement.Direction * _playerSettings.throwDistance, ForceMode2D.Impulse);
-            
+
 
             // await UniTask.NextFrame();
         }

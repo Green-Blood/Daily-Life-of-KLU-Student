@@ -9,5 +9,5 @@ EditorBuildSettings:
     path: Assets/Dead-Simple Dialogue/Demo/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:
-    com.unity.input.settings: {fileID: 11400000, guid: 40c950fb5d8fad34694614f2df89f983,
+    com.unity.input.settings: {fileID: 11400000, guid: e8c2fd8c084044e3090869ba8b7aaef6,
       type: 2}

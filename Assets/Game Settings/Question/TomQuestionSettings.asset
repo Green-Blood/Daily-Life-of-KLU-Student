@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0da68cc6c1304cb3b03945d2f69da66d, type: 3}
+  m_Name: TomQuestionSettings
+  m_EditorClassIdentifier: 
+  questions:
+  - questionName: Are microtransactions bad?
+    questionVariant:
+    - Yes
+    - No
+    - It depends
+    - Of course
+    rightAnswer: 2
+  - questionName: What is a whale?
+    questionVariant:
+    - A creature of the sea
+    - A rich person
+    - Profit
+    - Nothing important
+    rightAnswer: 1
+  - questionName: What type are you?
+    questionVariant:
+    - Killer
+    - Achiever
+    - Explorer
+    - Socializer
+    rightAnswer: -1
+  - questionName: What is not a game?
+    questionVariant:
+    - Rogue-like
+    - RPG
+    - FPS
+    - Gambling
+    rightAnswer: 3
+  - questionName: What is a defining character of a lootbox?
+    questionVariant:
+    - Happiness in a box
+    - Randomness
+    - Predefined loot
+    - 'Good intentions '
+    rightAnswer: 1

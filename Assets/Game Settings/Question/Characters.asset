@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Characters
   m_EditorClassIdentifier: 
   _characterList:
-  - Name: Alex
+  - Name: Me
     Photo: {fileID: 2800000, guid: 51d883b92a2095041869c64ac469ed7e, type: 3}
-  - Name: JASON
-    Photo: {fileID: 2800000, guid: e1044d260b869544d8b6bb1c28efc3f7, type: 3}
+  - Name: Tom
+    Photo: {fileID: 2800000, guid: d6cb9966f6cc94a3e91976fbdfc3644d, type: 3}
