@@ -22,6 +22,12 @@ MonoBehaviour:
         drink my special coffee
       Guid:
         Value: 
+    - Text: Your first goal is to go to your teach Tom of microtransactions!
+      Guid:
+        Value: 
+    - Text: Finish your quest by defeating the challange of  Mathis!
+      Guid:
+        Value: 
     Speaker: Demonbert
     Guid:
       Value: 
