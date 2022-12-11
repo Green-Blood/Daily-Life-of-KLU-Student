@@ -1,4 +1,5 @@
 using Characters.Interfaces;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 namespace Characters.Player
@@ -8,6 +9,7 @@ namespace Characters.Player
         [SerializeField] private Rigidbody2D playerRigidBody;
         [SerializeField] private SpriteRenderer spriteRenderer;
         [SerializeField] private Animator playerAnimator;
+        [SerializeField] private MMF_Player runFeedback;
 
 
         public Transform CharacterTransform => transform;
@@ -15,5 +17,6 @@ namespace Characters.Player
         public Animator CharacterAnimator => playerAnimator;
 
         public void FlipSprite(bool flip) => spriteRenderer.flipX = flip;
+        public MMF_Player RunFeedback => runFeedback;
     }
 }

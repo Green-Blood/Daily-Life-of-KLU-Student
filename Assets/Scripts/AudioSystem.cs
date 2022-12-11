@@ -14,6 +14,9 @@ public class AudioSystem : SingletonClass<AudioSystem>
     [SerializeField] private AudioClip exploreLoop;
     [SerializeField] private AudioClip exploreLoop50;
     [SerializeField] private AudioClip bossLoop;
+
+    [SerializeField] private float fadeSpeed = 1f;
+    
     public void StartBossAmbient()
     {
         audioSource.clip = bossAmbient; 
@@ -27,26 +30,33 @@ public class AudioSystem : SingletonClass<AudioSystem>
 
     public void StartExplore50()
     {
-        musicAudioSource.DOFade(0, 0.5f).OnComplete(() =>
+        if(musicAudioSource.clip == exploreLoop50) return;
+        musicAudioSource.DOFade(0, fadeSpeed).OnComplete(() =>
         {
             musicAudioSource.clip = exploreLoop50;
-            musicAudioSource.DOFade(1, 0.5f);
+            musicAudioSource.Play();
+            musicAudioSource.DOFade(1, fadeSpeed);
         });
     }
     public void StartExplore()
     {
-        musicAudioSource.DOFade(0, 0.5f).OnComplete(() =>
+        if(musicAudioSource.clip == exploreLoop) return;
+        musicAudioSource.DOFade(0, fadeSpeed).OnComplete(() =>
         {
             musicAudioSource.clip = exploreLoop;
-            musicAudioSource.DOFade(1, 0.5f);
+            musicAudioSource.Play();
+            musicAudioSource.DOFade(1, fadeSpeed);
         });
     }
     public void StartBoss()
     {
-        musicAudioSource.DOFade(0, 0.5f).OnComplete(() =>
+        if(bossLoop == null) return;
+        if(musicAudioSource.clip == bossLoop) return;
+        musicAudioSource.DOFade(0, fadeSpeed).OnComplete(() =>
         {
             musicAudioSource.clip = bossLoop;
-            musicAudioSource.DOFade(1, 0.5f);
+            musicAudioSource.Play();
+            musicAudioSource.DOFade(1, fadeSpeed);
         });
     }
 }

@@ -1,4 +1,5 @@
 using Characters.Interfaces;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,19 +31,17 @@ namespace Characters.Player
         {
             inputSystem.OnMoveInputAction.performed += OnMove;
             inputSystem.OnMoveInputAction.canceled += StopMoving;
-            
         }
 
         private void OnMove(InputAction.CallbackContext inputValue)
         {
-            if(!_canMove) return;
+            if (!_canMove) return;
             SetInput(inputValue.action);
             _playerFacade.CharacterAnimator.SetBool(IsMoving, true);
         }
 
         public void Move()
         {
-           
             var normalizedInput = _moveInput.normalized;
 
             if (normalizedInput.sqrMagnitude > .1f)
@@ -51,6 +50,15 @@ namespace Characters.Player
             }
 
             _playerFacade.FlipSprite(Direction.x < 0);
+            if (_moveInput != Vector2.zero)
+            {
+                if (!_playerFacade.RunFeedback.IsPlaying)
+                {
+               
+                    _playerFacade.RunFeedback.PlayFeedbacks();
+                }
+            }
+            
 
             _rigidbody2D.MovePosition(_rigidbody2D.position + normalizedInput * _playerSpeed * Time.deltaTime);
         }
@@ -64,6 +72,8 @@ namespace Characters.Player
         {
             _moveInput = Vector2.zero;
             _playerFacade.CharacterAnimator.SetBool(IsMoving, false);
+
+            _playerFacade.RunFeedback.StopFeedbacks();
         }
 
         public void ToggleMovement(bool value) => _canMove = value;

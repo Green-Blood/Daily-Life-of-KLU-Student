@@ -11,6 +11,8 @@ namespace Characters.Enemy
         private int _maxHealth;
         private IDie _characterDeath;
         public Action<int, int> OnHealthChanged;
+        public int CurrentHealth => _currentHealth;
+        public int MaxHealth => _maxHealth;
 
         public void Construct(CharacterSettings enemySettings, IDie enemyDeath)
         {
