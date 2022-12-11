@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _characterList:
   - Name: Me
-    Photo: {fileID: 2800000, guid: 51d883b92a2095041869c64ac469ed7e, type: 3}
+    Photo: {fileID: 2800000, guid: 5048249eb01714073b7f7bc139a4722d, type: 3}
   - Name: Tom
-    Photo: {fileID: 2800000, guid: d6cb9966f6cc94a3e91976fbdfc3644d, type: 3}
+    Photo: {fileID: 2800000, guid: 99423cd3f86234ba6a8c8c6460b4147c, type: 3}
   - Name: Mathias
-    Photo: {fileID: 2800000, guid: 88a7093024c264bdd929609ac4e6869c, type: 3}
+    Photo: {fileID: 2800000, guid: 29e58092014a349fd905ccdbfd3dff61, type: 3}
