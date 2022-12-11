@@ -6,7 +6,9 @@ namespace Core
         GameEnd,
         TomCanStart,
         TomStart,
-        TomEnd,
+        MathiasCanStart,
+        MathiasStart,
+        MathiasSecret,
         GameFinish,
     }
 }

@@ -1,4 +1,5 @@
 using Characters.Enemy;
+using Core;
 using ExtentionMethods.Object_Pooler;
 using UniRx;
 using UnityEngine;
@@ -18,15 +19,30 @@ namespace Characters.Player
         private PlayerMovement _playerMovement;
         private InputSystem _inputSystem;
         private CupThrow _playerThrow;
+        private StateMachine _stateMachine;
         public CharacterHealth PlayerHealth => playerHealth;
 
-        public void Construct(ObjectPooler objectPooler)
+        public void Construct(ObjectPooler objectPooler, StateMachine stateMachine)
         {
             _inputSystem = new InputSystem(playerInput);
             playerHealth.Construct(playerSettings, playerDeath);
             _playerMovement = new PlayerMovement(playerFacade, playerSettings, _inputSystem);
             _playerThrow = new CupThrow(objectPooler, cupTag, playerFacade, playerSettings, _inputSystem,
                 _playerMovement);
+            playerHealth.OnHealthChanged += OnHealthChanged;
+            _stateMachine = stateMachine;
+        }
+
+        private void OnHealthChanged(int currentHealth, int maxHealth)
+        {
+            if (_stateMachine.CurrentState == State.MathiasCanStart || _stateMachine.CurrentState == State.TomCanStart)
+            {
+                
+            }
+            if (currentHealth == maxHealth / 2)
+            {
+                AudioSystem.Instance.StartExplore50();
+            }
         }
 
         public void ToggleMovement(bool value)

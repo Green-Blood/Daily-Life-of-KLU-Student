@@ -1,5 +1,6 @@
 using System;
 using Characters.Interfaces;
+using Characters.Player;
 using UniRx;
 using UnityEngine;
 using UnityEngine.AI;
@@ -24,10 +25,18 @@ namespace Characters.Enemy
         private void Update()
         {
             if (!_agent.isActiveAndEnabled) return;
-            CheckAttack();
+            // CheckAttack();
 
-            if (!IsInDistance()) return;
-            if (_canAttack) TryAttack();
+            // if (!IsInDistance()) return;
+            // if (_canAttack) TryAttack();
+        }
+
+        private void OnCollisionEnter2D(Collision2D col)
+        {
+            if (col.collider.TryGetComponent(out PlayerBootstrap player))
+            {
+                player.PlayerHealth.TakeDamage(_enemySettings.attackDamage);
+            }
         }
 
         private void CheckAttack()
@@ -54,10 +63,6 @@ namespace Characters.Enemy
 
         private bool IsInDistance() => _agent.remainingDistance <= _enemySettings.attackDistance;
 
-        private void OnDrawGizmos()
-        {
-            Gizmos.color = Color.red;
-            Gizmos.DrawWireSphere(transform.position + (_agent.destination - transform.position), _enemySettings.attackRadius);
-        }
+        
     }
 }
