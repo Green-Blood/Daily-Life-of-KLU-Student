@@ -37,9 +37,11 @@ public class GameTrigger : MonoBehaviour
         {
             _stateMachine.Enter(stateToStart);
             DialogueManager.Instance.StartNewDialogue(cutscene);
+            AudioSystem.Instance.StartBossAmbient();
         }
     }
 
 
     private void OnDisable() => triggerObserver.OnEnter -= OnPlayerEnter;
+   
 }

@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update: Tom's death">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MathiasBootstrap.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/MathiasBootstrap.cs.meta" afterDir="false" />
+    <list default="true" id="4a7f57c1-69e1-45e2-b26b-c2cc44a1294c" name="Changes" comment="Update:">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/AudioSystem.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Daily-Life-of-KLU-Student/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Game Settings/Question/Characters.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Characters.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Game Settings/Question/Tom's talk End.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Student.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Student.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyAttack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemyAttack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/Bootstrap.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Core/State.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Core/State.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ExtentionMethods/Object Pooler/ObjectPooler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Tom's Trigger.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Mathias.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Mathias.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Characters/Player/PlayerBootstrap.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameTrigger.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionTriggers.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/QuestionUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/QuestionUI.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_Scenes/Game/NavMesh-NavmeshSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_Scenes/Game/NavMesh-NavmeshSurface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +31,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/Enemy/EnemySpawnPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Characters/HealthBar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Characters/Interfaces/IFacade.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Users/jey/Unity/Projects/StranGen/Daily-Life-of-KLU-Student/Assets/Scripts/Core/Bootstrap.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Core/GameCanvas.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Cups/Cup.cs" root0="FORCE_HIGHLIGHTING" />
@@ -232,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670748873925</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update:">
+      <created>1670756731644</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1670756731644</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -273,6 +273,7 @@
     <MESSAGE value="Fix: layers fix" />
     <MESSAGE value="Update: Question system" />
     <MESSAGE value="Update: Tom's death" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update: Tom's death" />
+    <MESSAGE value="Update:" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update:" />
   </component>
 </project>

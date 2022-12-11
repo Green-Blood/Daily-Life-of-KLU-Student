@@ -2,6 +2,7 @@ using System;
 using Core;
 using Dossamer.Dialogue;
 using Dossamer.Dialogue.Schema;
+using MoreMountains.Feedbacks;
 using UnityEngine;
 
 public class QuestionTriggers : MonoBehaviour
@@ -10,6 +11,10 @@ public class QuestionTriggers : MonoBehaviour
     [SerializeField] private QuestionUI questionUI;
     [SerializeField] private QuestionSettings questionSettings;
     [SerializeField] private Cutscene tomEndCutscene;
+    [SerializeField] private MMF_Player correctFeedback;
+    [SerializeField] private MMF_Player inCorrectFeedback;
+    [SerializeField] private MMF_Player winFeedback;
+    
 
     private int _currentQuestion;
     public Action OnQuestionsFinished;
@@ -21,9 +26,15 @@ public class QuestionTriggers : MonoBehaviour
         foreach (var questionTrigger in questionTriggers)
         {
             questionTrigger.OnCorrectQuestionTriggered += OnCorrectQuestionTriggered;
+            questionTrigger.OnInCorrectQuestionTriggered += OnInCorrectQuestionTriggered;
         }
 
         OnQuestionsFinished += FinishQuestions;
+    }
+
+    private void OnInCorrectQuestionTriggered()
+    {
+        inCorrectFeedback.PlayFeedbacks();
     }
 
     public void Construct(StateMachine stateMachine)
@@ -50,11 +61,14 @@ public class QuestionTriggers : MonoBehaviour
         gameObject.SetActive(false);
         questionUI.FadeOutQuestionPanel(null);
         DialogueManager.Instance.StartNewDialogue(tomEndCutscene);
+        winFeedback.PlayFeedbacks();
+        AudioSystem.Instance.StartCorridorAmbient();
     }
 
     private void OnCorrectQuestionTriggered()
     {
         NextQuestion();
+        correctFeedback.PlayFeedbacks();
     }
 
     public void NextQuestion()
