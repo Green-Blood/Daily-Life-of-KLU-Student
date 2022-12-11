@@ -32,11 +32,12 @@ namespace Core
         private GameSettings gameSettings;
 
         [SerializeField] private QuestionTriggers questionTriggers;
-        
+        [SerializeField] private SceneSwitcher sceneSwitcher;
+
 
 
         private StateMachine _stateMachine;
-
+     
         private void Awake()
         {
             _stateMachine = new StateMachine();
@@ -79,6 +80,9 @@ namespace Core
                 case State.MathiasStart:
                     StopEnemies();
                     StartMathias();
+                    break;
+                case State.GameEnd:
+                    sceneSwitcher.Death();
                     break;
             }
         }

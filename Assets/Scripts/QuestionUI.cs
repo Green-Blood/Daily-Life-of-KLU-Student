@@ -41,6 +41,6 @@ public class QuestionUI : MonoBehaviour
     public void FadeInQuestionPanel(Action onFadeInComplete)
     {
         gameObject.SetActive(true);
-        canvasGroup.DOFade(0.7f, fadeOutDuration).OnComplete((() => { onFadeInComplete?.Invoke();}));
+        canvasGroup.DOFade(1, fadeOutDuration).OnComplete((() => { onFadeInComplete?.Invoke();}));
     }
 }
