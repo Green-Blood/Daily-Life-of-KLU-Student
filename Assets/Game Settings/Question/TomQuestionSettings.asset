@@ -26,7 +26,7 @@ MonoBehaviour:
     - A rich person
     - Profit
     - Nothing important
-    rightAnswer: 1
+    rightAnswer: 2
   - questionName: What type are you?
     questionVariant:
     - Killer
