@@ -29,6 +29,9 @@ namespace Core
         [BoxGroup("Settings")] [SerializeField]
         private GameSettings gameSettings;
 
+        [SerializeField] private QuestionTriggers questionTriggers;
+        
+
 
         private StateMachine _stateMachine;
 
@@ -46,10 +49,15 @@ namespace Core
 
             gameCanvas.Construct(playerBootstrap);
             tomSpawnPoint.Construct(objectPooler, playerBootstrap.transform);
-
+            // questionTriggers.Construct(_stateMachine);
             // TODO Change it with the game state 
             playerBootstrap.StartPlayer();
             _stateMachine.Enter(State.TomCanStart);
+        }
+
+        public void EndTomsQuestions()
+        {
+            _stateMachine.Enter(State.TomEnd);
         }
 
         private void OnStateChange(State state)
@@ -63,7 +71,7 @@ namespace Core
                     break;
                 case State.TomEnd:
                     StartEnemies();
-
+                    
                     break;
             }
         }
