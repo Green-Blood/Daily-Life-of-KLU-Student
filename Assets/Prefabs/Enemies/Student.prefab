@@ -190,7 +190,7 @@ MonoBehaviour:
         SoloAllTracks: 0
         AutoUnSoloOnEnd: 0
         PanStereo: 0
-        SpatialBlend: 0
+        SpatialBlend: 1
         BypassEffects: 0
         BypassListenerEffects: 0
         BypassReverbZones: 0
@@ -198,9 +198,9 @@ MonoBehaviour:
         ReverbZoneMix: 1
         DopplerLevel: 1
         Spread: 0
-        RolloffMode: 0
+        RolloffMode: 1
         MinDistance: 1
-        MaxDistance: 500
+        MaxDistance: 50
         DrawGizmos: 0
         GizmosCenter: {fileID: 0}
         MinDistanceColor: {r: 0.37254903, g: 0.61960787, b: 0.627451, a: 1}
@@ -612,7 +612,7 @@ MonoBehaviour:
         SoloAllTracks: 0
         AutoUnSoloOnEnd: 0
         PanStereo: 0
-        SpatialBlend: 0
+        SpatialBlend: 1
         BypassEffects: 0
         BypassListenerEffects: 0
         BypassReverbZones: 0
@@ -620,9 +620,9 @@ MonoBehaviour:
         ReverbZoneMix: 1
         DopplerLevel: 1
         Spread: 0
-        RolloffMode: 0
+        RolloffMode: 1
         MinDistance: 1
-        MaxDistance: 500
+        MaxDistance: 50
         DrawGizmos: 0
         GizmosCenter: {fileID: 0}
         MinDistanceColor: {r: 0.37254903, g: 0.61960787, b: 0.627451, a: 1}

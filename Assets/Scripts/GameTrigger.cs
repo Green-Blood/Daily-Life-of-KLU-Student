@@ -13,7 +13,8 @@ public class GameTrigger : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private State triggerState = State.TomCanStart;
     [SerializeField] private State stateToStart = State.TomStart;
-
+    [SerializeField] private AudioSystem audioSystem;
+    
 
     private StateMachine _stateMachine;
 
@@ -37,7 +38,7 @@ public class GameTrigger : MonoBehaviour
         {
             _stateMachine.Enter(stateToStart);
             DialogueManager.Instance.StartNewDialogue(cutscene);
-            AudioSystem.Instance.StartBossAmbient();
+            audioSystem.StartBossAmbient();
         }
     }
 

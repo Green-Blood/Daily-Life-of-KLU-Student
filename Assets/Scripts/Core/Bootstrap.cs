@@ -3,6 +3,7 @@ using Characters.Enemy;
 using Characters.Player;
 using ExtentionMethods.Object_Pooler;
 using Sirenix.OdinInspector;
+using UniRx;
 using UnityEngine;
 
 namespace Core
@@ -82,7 +83,11 @@ namespace Core
                     StartMathias();
                     break;
                 case State.GameEnd:
-                    sceneSwitcher.Death();
+                    Observable.Timer(TimeSpan.FromSeconds(1f)).Subscribe((l =>
+                    {
+                        sceneSwitcher.Death();
+                    }));
+                   
                     break;
             }
         }

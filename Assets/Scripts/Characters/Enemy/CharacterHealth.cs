@@ -13,6 +13,7 @@ namespace Characters.Enemy
         public Action<int, int> OnHealthChanged;
         public int CurrentHealth => _currentHealth;
         public int MaxHealth => _maxHealth;
+        private bool isDead;
 
         public void Construct(CharacterSettings enemySettings, IDie enemyDeath)
         {
@@ -23,12 +24,17 @@ namespace Characters.Enemy
 
         public void TakeDamage(int amount)
         {
+            if(isDead) return;
             _currentHealth -= amount;
             Validate();
 
             OnHealthChanged?.Invoke(_currentHealth, _maxHealth);
             Debug.Log("Current health of " + gameObject.name + " is "  + _currentHealth  ) ;
-            if (_currentHealth <= 0) _characterDeath.Die();
+            if (_currentHealth <= 0)
+            {
+                isDead = true;
+                _characterDeath.Die();
+            }
         }
 
         private void Validate()

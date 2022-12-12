@@ -15,6 +15,8 @@ public class QuestionTriggers : MonoBehaviour
     [SerializeField] private MMF_Player inCorrectFeedback;
     [SerializeField] private MMF_Player winFeedback;
     [SerializeField] private MMF_Player startFeedback;
+    [SerializeField] private AudioSystem audioSystem;
+    
     
 
     private int _currentQuestion;
@@ -65,7 +67,7 @@ public class QuestionTriggers : MonoBehaviour
         questionUI.FadeOutQuestionPanel(null);
         DialogueManager.Instance.StartNewDialogue(tomEndCutscene);
         winFeedback.PlayFeedbacks();
-        AudioSystem.Instance.StartCorridorAmbient();
+        audioSystem.StartCorridorAmbient();
     }
 
     private void OnCorrectQuestionTriggered()

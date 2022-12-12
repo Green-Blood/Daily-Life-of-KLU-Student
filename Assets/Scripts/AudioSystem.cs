@@ -3,7 +3,7 @@ using ExtentionMethods;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
-public class AudioSystem : SingletonClass<AudioSystem>
+public class AudioSystem : MonoBehaviour
 {
     [Title("Ambient")]
     [SerializeField] private AudioSource audioSource;
@@ -14,6 +14,7 @@ public class AudioSystem : SingletonClass<AudioSystem>
     [SerializeField] private AudioClip exploreLoop;
     [SerializeField] private AudioClip exploreLoop50;
     [SerializeField] private AudioClip bossLoop;
+    [SerializeField] private AudioClip arminLoop;
 
     [SerializeField] private float fadeSpeed = 1f;
     
@@ -55,6 +56,17 @@ public class AudioSystem : SingletonClass<AudioSystem>
         musicAudioSource.DOFade(0, fadeSpeed).OnComplete(() =>
         {
             musicAudioSource.clip = bossLoop;
+            musicAudioSource.Play();
+            musicAudioSource.DOFade(1, fadeSpeed);
+        });
+    }
+
+    public void StartArmin()
+    {
+        if(musicAudioSource.clip == arminLoop) return;
+        musicAudioSource.DOFade(0, fadeSpeed).OnComplete(() =>
+        {
+            musicAudioSource.clip = arminLoop;
             musicAudioSource.Play();
             musicAudioSource.DOFade(1, fadeSpeed);
         });

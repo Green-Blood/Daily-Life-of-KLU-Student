@@ -48,9 +48,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 502.5
-    width: 484
-    height: 364.5
+    y: 503.5
+    width: 582
+    height: 363.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 968, y: 544}
+  m_TargetSize: {x: 1164, y: 655}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -76,10 +76,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -242
-    m_HBaseRangeMax: 242
-    m_VBaseRangeMin: -136
-    m_VBaseRangeMax: 136
+    m_HBaseRangeMin: -291
+    m_HBaseRangeMax: 291
+    m_VBaseRangeMin: -163.75
+    m_VBaseRangeMax: 163.75
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -97,23 +97,23 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 484
-      height: 343.5
+      width: 582
+      height: 342.5
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 242, y: 171.75}
+    m_Translation: {x: 291, y: 171.25}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -242
-      y: -171.75
-      width: 484
-      height: 343.5
+      x: -291
+      y: -171.25
+      width: 582
+      height: 342.5
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 968, y: 729}
+  m_LastWindowPixelSize: {x: 1164, y: 727}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -138,7 +138,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 485
+    width: 583
     height: 792
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
@@ -161,8 +161,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 485
-    height: 406.5
+    width: 583
+    height: 407.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 5}
@@ -193,8 +193,8 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 96
-    width: 484
-    height: 385.5
+    width: 582
+    height: 386.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -281,9 +281,9 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 67.5, y: 86}
+      snapOffset: {x: -32.5, y: 86}
       snapOffsetDelta: {x: 0, y: 0}
-      snapCorner: 0
+      snapCorner: 1
       id: Orientation
       index: 0
       layout: 4
@@ -418,9 +418,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 503.208, y: 301.75323, z: 0.9001211}
+    m_Target: {x: 85.1, y: 62.1, z: 0}
     speed: 2
-    m_Value: {x: 503.208, y: 301.75323, z: 0.9001211}
+    m_Value: {x: 85.1, y: 62.1, z: 0}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -471,9 +471,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 592.1759
+    m_Target: 5.032781
     speed: 2
-    m_Value: 592.1759
+    m_Value: 5.032781
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -514,9 +514,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 406.5
-    width: 485
-    height: 385.5
+    y: 407.5
+    width: 583
+    height: 384.5
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 2}
@@ -546,9 +546,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 502.5
+    y: 503.5
     width: 484
-    height: 364.5
+    height: 363.5
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
     m_LastAppliedPresetName: Default
@@ -556,12 +556,12 @@ MonoBehaviour:
   logPanelScroll: {x: 0, y: 0}
   logPanelSelectedIndex: -1
   logPanelAutoScroll: 1
-  currentFrame: 1047
+  currentFrame: 10063
   logs:
-    lastGrabbedIndex: 4
-    lastGrabbedCount: 5
+    lastGrabbedIndex: 2
+    lastGrabbedCount: 3
     proEntries:
-    - logType: 2
+    - logType: 4
       ignore: 0
       processed: 1
       tempFilterProcessed: 1
@@ -572,33 +572,59 @@ MonoBehaviour:
       listIndex: 0
       nativeIndex: 0
       nativeIdentifier: 0
-      originalLog: Couldn't parse HID descriptor with fast parser. Using fallback
-      originalStackTrace: 'Couldn''t parse HID descriptor with fast parser. Using
-        fallback
+      originalLog: 'ArgumentOutOfRangeException: Specified argument was out of the
+        range of valid values.
 
-        UnityEngine.InputSystem.LowLevel.NativeInputRuntime/<>c__DisplayClass7_0:<set_onUpdate>b__0
-        (UnityEngineInternal.Input.NativeInputUpdateType,UnityEngineInternal.Input.NativeInputEventBuffer*)
+        Parameter name: subshaderIndex'
+      originalStackTrace: 'ArgumentOutOfRangeException: Specified argument was out
+        of the range of valid values.
 
-        UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate
-        (UnityEngineInternal.Input.NativeInputUpdateType,intptr) (at /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120)
+        Parameter name: subshaderIndex
 
-        UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes
-        (System.Type[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126)
+        UnityEngine.Shader.FindSubshaderTagValue
+        (System.Int32 subshaderIndex, UnityEngine.Rendering.ShaderTagId tagName)
+        (at /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.IsShaderGraphShader
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippetData)
+        (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.StripUnused
+        (UnityEditor.Rendering.BuiltIn.ShaderFeatures features, UnityEngine.Shader
+        shader, UnityEditor.Rendering.ShaderSnippetData snippetData, UnityEditor.Rendering.ShaderCompilerData
+        compilerData) (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.OnProcessShader
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippetData,
+        System.Collections.Generic.IList`1[T] compilerDataList) (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348)
+
+        UnityEditor.Build.BuildPipelineInterfaces.OnPreprocessShaders
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippet,
+        UnityEditor.Rendering.ShaderCompilerData[] data) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490)
+
+        UnityEngine.GUIUtility:ProcessEvent(Int32,
+        IntPtr, Boolean&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189)
 
 '
-      nativeFileName: Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/HID/HID.cs
+      nativeFileName: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
       nativeFileNamePretty: 
-      nativeLineNumber: 1133
+      nativeLineNumber: 95
       watchName: 
-      logText: Couldn't parse HID descriptor with fast parser. Using fallback
-      logTruncatedText: Couldn't parse HID descriptor with fast parser. Using fallback
+      logText: 'ArgumentOutOfRangeException: Specified argument was out of the range
+        of valid values.
+
+        Parameter name: subshaderIndex'
+      logTruncatedText: 'ArgumentOutOfRangeException: Specified argument was out
+        of the range of valid values.
+
+        Parameter name: subshaderIndex'
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
-      lineCount: 1
+      lineCount: 2
       hasSourceCode: 0
-      timeStamp: 15:26:06
+      timeStamp: 16:20:45
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
@@ -606,20 +632,20 @@ MonoBehaviour:
       cachedHeight: -1
       cachedHeightLogWidth: 0
       stackEntries:
-      - fileName: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs
-        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs
-        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120
-        fileNameWithoutPath: Input.cs
-        fileNameWithoutPathPlusLineNumber: Input.cs:120
-        fileNamePretty: Input
+      - fileName: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95
+        fileNameWithoutPath: Shader.bindings.cs
+        fileNameWithoutPathPlusLineNumber: Shader.bindings.cs:95
+        fileNamePretty: Shader.bindings
         instanceID: -1
-        className: NativeInputSystem
-        methodName: NotifyUpdate
-        namespaceName: UnityEngineInternal.Input
-        lineNumberString: 120
+        className: Shader
+        methodName: FindSubshaderTagValue
+        namespaceName: UnityEngine
+        lineNumberString: 95
         charNumber: 0
-        stackLabel: NativeInputSystem.NotifyUpdate()
-        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:120'
+        stackLabel: Shader Error
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -636,20 +662,140 @@ MonoBehaviour:
         sourceCode: []
         sourceCodeUpdated: 0
         showSource: 1
-      - fileName: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs
-        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs
-        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126
-        fileNameWithoutPath: EditorAssemblies.cs
-        fileNameWithoutPathPlusLineNumber: EditorAssemblies.cs:126
-        fileNamePretty: EditorAssemblies
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:114
+        fileNamePretty: ShaderPreprocessor
         instanceID: -1
-        className: EditorAssemblies
-        methodName: ProcessInitializeOnLoadAttributes
-        namespaceName: UnityEditor
-        lineNumberString: 126
+        className: ShaderPreprocessor
+        methodName: IsShaderGraphShader
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 114
         charNumber: 0
-        stackLabel: EditorAssemblies.ProcessInitializeOnLoadAttributes()
-        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorAssemblies.cs:126'
+        stackLabel: ShaderPreprocessor.IsShaderGraphShader()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:284
+        fileNamePretty: ShaderPreprocessor
+        instanceID: -1
+        className: ShaderPreprocessor
+        methodName: StripUnused
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 284
+        charNumber: 0
+        stackLabel: ShaderPreprocessor.StripUnused()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:348
+        fileNamePretty: ShaderPreprocessor
+        instanceID: -1
+        className: ShaderPreprocessor
+        methodName: OnProcessShader
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 348
+        charNumber: 0
+        stackLabel: ShaderPreprocessor.OnProcessShader()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490
+        fileNameWithoutPath: BuildPipelineInterfaces.cs
+        fileNameWithoutPathPlusLineNumber: BuildPipelineInterfaces.cs:490
+        fileNamePretty: BuildPipelineInterfaces
+        instanceID: -1
+        className: BuildPipelineInterfaces
+        methodName: OnPreprocessShaders
+        namespaceName: UnityEditor.Build
+        lineNumberString: 490
+        charNumber: 0
+        stackLabel: BuildPipelineInterfaces.OnPreprocessShaders()
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189
+        fileNameWithoutPath: GUIUtility.cs
+        fileNameWithoutPathPlusLineNumber: GUIUtility.cs:189
+        fileNamePretty: GUIUtility
+        instanceID: -1
+        className: GUIUtility
+        methodName: ProcessEvent
+        namespaceName: UnityEngine
+        lineNumberString: 189
+        charNumber: 0
+        stackLabel: GUIUtility.ProcessEvent()
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189'
         stackLabel1Content:
           m_Text: 
           m_Image: {fileID: 0}
@@ -667,20 +813,20 @@ MonoBehaviour:
         sourceCodeUpdated: 0
         showSource: 1
       ignoredStackEntries: []
-      lastMatchedCount: 0
+      lastMatchedCount: 1
       belongsToFilters:
-      - name: Warning
+      - name: Exception
         isEnabled: 1
         collapsed: 1
-        itemGUID: d5836e4a-fcf4-4465-8b77-3269e1b8cf7c
+        itemGUID: d5bcd850-3468-4268-9748-e5fb1d08755c
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 0
+        useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -701,7 +847,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 7eff13ce-d98b-4083-bfc9-85d377e20a30
+            itemGUID: a4a66be4-f36a-46be-af0e-2077653e0801
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -710,13 +856,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: adacb801-edbe-41af-ae20-817d1faa832a
-                logType: 2
+                itemGUID: 665217a0-1f2b-4455-baae-f839109af445
+                logType: 4
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 4834cf7a-b98f-49cf-ac7d-70828a19ac70
-                logType: 5
+                itemGUID: ee8b5819-19b1-4d0e-bde4-bf542c0c07c2
+                logType: 7
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -725,7 +871,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1aa80c20-af78-493c-a057-e9ae0525aa57
+                itemGUID: cf69dfe9-d20c-480f-ab48-8d909d70a639
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -745,14 +891,14 @@ MonoBehaviour:
           itemGUID: 
           iconType: 3
           iconType2: 1
-          iconText: '!'
+          iconText: X
           useIconTextFirstLetter: 0
           useIconLogColor: 0
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
           iconSize: 7
         iconSymbol:
@@ -783,7 +929,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -808,20 +954,20 @@ MonoBehaviour:
           iconSize: 13
         showInToolbar: 1
         hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
+        hideWhenNoMatches: 1
       belongsToStandardFilters:
-      - name: Warning
+      - name: Exception
         isEnabled: 1
         collapsed: 1
-        itemGUID: d5836e4a-fcf4-4465-8b77-3269e1b8cf7c
+        itemGUID: d5bcd850-3468-4268-9748-e5fb1d08755c
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 0
+        useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -842,7 +988,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 7eff13ce-d98b-4083-bfc9-85d377e20a30
+            itemGUID: a4a66be4-f36a-46be-af0e-2077653e0801
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -851,13 +997,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: adacb801-edbe-41af-ae20-817d1faa832a
-                logType: 2
+                itemGUID: 665217a0-1f2b-4455-baae-f839109af445
+                logType: 4
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 4834cf7a-b98f-49cf-ac7d-70828a19ac70
-                logType: 5
+                itemGUID: ee8b5819-19b1-4d0e-bde4-bf542c0c07c2
+                logType: 7
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -866,7 +1012,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1aa80c20-af78-493c-a057-e9ae0525aa57
+                itemGUID: cf69dfe9-d20c-480f-ab48-8d909d70a639
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -886,14 +1032,14 @@ MonoBehaviour:
           itemGUID: 
           iconType: 3
           iconType2: 1
-          iconText: '!'
+          iconText: X
           useIconTextFirstLetter: 0
           useIconLogColor: 0
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
           iconSize: 7
         iconSymbol:
@@ -924,7 +1070,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -949,7 +1095,7 @@ MonoBehaviour:
           iconSize: 13
         showInToolbar: 1
         hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
+        hideWhenNoMatches: 1
       assignedTempFilter:
         name: 
         isEnabled: 1
@@ -1054,89 +1200,57 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-    - logType: 2
+    - logType: 1
       ignore: 0
       processed: 1
       tempFilterProcessed: 1
       remoteEndPoint: Local
       logPanelVisible: 1
-      logPanelIndex: 0
+      logPanelIndex: 1
       logOutputHeight: -1
       listIndex: 1
       nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: DontDestroyOnLoad only works for root GameObjects or components
-        on root GameObjects.
-      originalStackTrace: 'DontDestroyOnLoad only works for root GameObjects or components
-        on root GameObjects.
+      originalLog: Build completed with a result of 'Succeeded' in 34 seconds (33624
+        ms)
+      originalStackTrace: 'Build completed with a result of ''Succeeded'' in 34 seconds
+        (33624 ms)
 
-        UnityEngine.StackTraceUtility:ExtractStackTrace
-        ()
-
-        ExtentionMethods.SingletonClass`1<AudioSystem>:Awake () (at Assets/Scripts/ExtentionMethods/SingletonClass.cs:29)
+        UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+        (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189)
 
 '
-      nativeFileName: Assets/Scripts/ExtentionMethods/SingletonClass.cs
+      nativeFileName: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPlayerWindowBuildMethods.cs
       nativeFileNamePretty: 
-      nativeLineNumber: 29
+      nativeLineNumber: 195
       watchName: 
-      logText: DontDestroyOnLoad only works for root GameObjects or components on
-        root GameObjects.
-      logTruncatedText: DontDestroyOnLoad only works for root GameObjects or components
-        on root GameObjects.
+      logText: Build completed with a result of 'Succeeded' in 34 seconds (33624
+        ms)
+      logTruncatedText: Build completed with a result of 'Succeeded' in 34 seconds
+        (33624 ms)
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 15:26:12
+      timeStamp: 16:21:12
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
       collapsedCount: 0
       cachedHeight: -1
       cachedHeightLogWidth: 0
-      stackEntries:
-      - fileName: Assets/Scripts/ExtentionMethods/SingletonClass.cs
-        fileNameWithoutAssets: Scripts/ExtentionMethods/SingletonClass.cs
-        fileNameWithoutAssetsPlusLineNumber: Scripts/ExtentionMethods/SingletonClass.cs:29
-        fileNameWithoutPath: SingletonClass.cs
-        fileNameWithoutPathPlusLineNumber: SingletonClass.cs:29
-        fileNamePretty: SingletonClass
-        instanceID: -1
-        className: ExtentionMethods.SingletonClass`1<AudioSystem>
-        methodName: Awake
-        namespaceName: None
-        lineNumberString: 29
-        charNumber: 0
-        stackLabel: ExtentionMethods.SingletonClass`1<AudioSystem>.Awake()
-        stackLabel2: ' at /Scripts/ExtentionMethods/SingletonClass.cs:29'
-        stackLabel1Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel1Width: 0
-        stackLabel1Height: 0
-        stackLabel2Content:
-          m_Text: 
-          m_Image: {fileID: 0}
-          m_Tooltip: 
-        stackLabel2Width: 0
-        stackLabel2Height: 0
-        stackSourceLineHeight: 0
-        sourceCode: []
-        sourceCodeUpdated: 0
-        showSource: 1
+      stackEntries: []
       ignoredStackEntries: []
-      lastMatchedCount: 0
+      lastMatchedCount: 1
       belongsToFilters:
-      - name: Warning
+      - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: d5836e4a-fcf4-4465-8b77-3269e1b8cf7c
+        itemGUID: dcc7d10b-7711-4cef-bcc9-881494308323
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
@@ -1153,7 +1267,7 @@ MonoBehaviour:
         collapseIconTexture: 0
         useIconBackground: 1
         useIconSymbol: 0
-        useIconLetter: 1
+        useIconLetter: 0
         useIconTexture: 0
         filterFormatVersion: 1
         iconColorize: 0
@@ -1163,7 +1277,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 7eff13ce-d98b-4083-bfc9-85d377e20a30
+            itemGUID: ad741a96-1b83-4638-9789-e8e8f0a1cea4
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1172,13 +1286,8 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: adacb801-edbe-41af-ae20-817d1faa832a
-                logType: 2
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 4834cf7a-b98f-49cf-ac7d-70828a19ac70
-                logType: 5
+                itemGUID: 1eb48a81-e19d-4521-8185-b310447d780c
+                logType: 1
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -1187,7 +1296,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1aa80c20-af78-493c-a057-e9ae0525aa57
+                itemGUID: a788f07a-005b-4e5b-a752-1b23dcb18ff5
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1205,18 +1314,18 @@ MonoBehaviour:
           isEnabled: 1
           collapsed: 0
           itemGUID: 
-          iconType: 3
+          iconType: 1
           iconType2: 1
-          iconText: '!'
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
+          iconSize: 13
         iconSymbol:
           name: 
           isEnabled: 1
@@ -1245,7 +1354,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -1272,12 +1381,12 @@ MonoBehaviour:
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
       belongsToStandardFilters:
-      - name: Warning
+      - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: d5836e4a-fcf4-4465-8b77-3269e1b8cf7c
+        itemGUID: dcc7d10b-7711-4cef-bcc9-881494308323
         filterName: 
-        mainColor: {r: 1, g: 0.84, b: 0.02, a: 0.7}
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
@@ -1294,7 +1403,7 @@ MonoBehaviour:
         collapseIconTexture: 0
         useIconBackground: 1
         useIconSymbol: 0
-        useIconLetter: 1
+        useIconLetter: 0
         useIconTexture: 0
         filterFormatVersion: 1
         iconColorize: 0
@@ -1304,7 +1413,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 7eff13ce-d98b-4083-bfc9-85d377e20a30
+            itemGUID: ad741a96-1b83-4638-9789-e8e8f0a1cea4
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -1313,13 +1422,8 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: adacb801-edbe-41af-ae20-817d1faa832a
-                logType: 2
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 4834cf7a-b98f-49cf-ac7d-70828a19ac70
-                logType: 5
+                itemGUID: 1eb48a81-e19d-4521-8185-b310447d780c
+                logType: 1
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -1328,7 +1432,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1aa80c20-af78-493c-a057-e9ae0525aa57
+                itemGUID: a788f07a-005b-4e5b-a752-1b23dcb18ff5
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -1346,18 +1450,18 @@ MonoBehaviour:
           isEnabled: 1
           collapsed: 0
           itemGUID: 
-          iconType: 3
+          iconType: 1
           iconType2: 1
-          iconText: '!'
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
-          iconOffset: {x: 0, y: 2}
+          iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
+          iconSize: 13
         iconSymbol:
           name: 
           isEnabled: 1
@@ -1386,7 +1490,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGTRIANGLE
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -1527,43 +1631,67 @@ MonoBehaviour:
       listIndex: 2
       nativeIndex: 2
       nativeIdentifier: 0
-      originalLog: 'Couldn''t parse HID descriptor with fast parser. Using fallback
-
-        UnityEditor.EditorApplication:Internal_PlayModeStateChanged
-        (UnityEditor.PlayModeStateChange) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:438)'
+      originalLog: Couldn't parse HID descriptor with fast parser. Using fallback
       originalStackTrace: 'Couldn''t parse HID descriptor with fast parser. Using
         fallback
 
-        UnityEditor.EditorApplication:Internal_PlayModeStateChanged
-        (UnityEditor.PlayModeStateChange) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:438)
+        UnityEngine.InputSystem.InputManager:OnNativeDeviceDiscovered
+        (int,string)
+
+        UnityEngineInternal.Input.NativeInputSystem:NotifyDeviceDiscovered
+        (int,string) (at /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:129)
 
 '
       nativeFileName: Library/PackageCache/com.unity.inputsystem@1.4.4/InputSystem/Plugins/HID/HID.cs
       nativeFileNamePretty: 
       nativeLineNumber: 1133
       watchName: 
-      logText: 'Couldn''t parse HID descriptor with fast parser. Using fallback
-
-        UnityEditor.EditorApplication:Internal_PlayModeStateChanged
-        (UnityEditor.PlayModeStateChange) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:438)'
-      logTruncatedText: 'Couldn''t parse HID descriptor with fast parser. Using fallback
-
-        UnityEditor.EditorApplication:Internal_PlayModeStateChanged
-        (UnityEditor.PlayModeStateChange) (at /Users/bokken/build/output/unity/unity/Editor/Mono/EditorApplication.cs:438)'
+      logText: Couldn't parse HID descriptor with fast parser. Using fallback
+      logTruncatedText: Couldn't parse HID descriptor with fast parser. Using fallback
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
-      lineCount: 2
+      lineCount: 1
       hasSourceCode: 0
-      timeStamp: 15:26:16
+      timeStamp: 17:10:28
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
       collapsedCount: 0
       cachedHeight: -1
       cachedHeightLogWidth: 0
-      stackEntries: []
+      stackEntries:
+      - fileName: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:129
+        fileNameWithoutPath: Input.cs
+        fileNameWithoutPathPlusLineNumber: Input.cs:129
+        fileNamePretty: Input
+        instanceID: -1
+        className: NativeInputSystem
+        methodName: NotifyDeviceDiscovered
+        namespaceName: UnityEngineInternal.Input
+        lineNumberString: 129
+        charNumber: 0
+        stackLabel: NativeInputSystem.NotifyDeviceDiscovered()
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Modules/Input/Private/Input.cs:129'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 0
       belongsToFilters:
@@ -1952,866 +2080,12 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-    - logType: 3
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 0
-      logOutputHeight: -1
-      listIndex: 3
-      nativeIndex: 3
-      nativeIdentifier: 0
-      originalLog: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't
-        be enabled because it doesn't exist
-      originalStackTrace: 'Menu File/Open Recent Scene/SecretEnding (from _Scenes)
-        can''t be enabled because it doesn''t exist
-
-'
-      nativeFileName: 
-      nativeFileNamePretty: 
-      nativeLineNumber: 0
-      watchName: 
-      logText: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't be enabled
-        because it doesn't exist
-      logTruncatedText: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't
-        be enabled because it doesn't exist
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 15:26:17
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 0
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries: []
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Error
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
-        filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      belongsToStandardFilters:
-      - name: Error
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
-        filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-    - logType: 3
-      ignore: 0
-      processed: 1
-      tempFilterProcessed: 1
-      remoteEndPoint: Local
-      logPanelVisible: 1
-      logPanelIndex: 1
-      logOutputHeight: -1
-      listIndex: 4
-      nativeIndex: 4
-      nativeIdentifier: 0
-      originalLog: Menu File/Open Recent Scene/Victory (from _Scenes) can't be enabled
-        because it doesn't exist
-      originalStackTrace: 'Menu File/Open Recent Scene/Victory (from _Scenes) can''t
-        be enabled because it doesn''t exist
-
-'
-      nativeFileName: 
-      nativeFileNamePretty: 
-      nativeLineNumber: 0
-      watchName: 
-      logText: Menu File/Open Recent Scene/Victory (from _Scenes) can't be enabled
-        because it doesn't exist
-      logTruncatedText: Menu File/Open Recent Scene/Victory (from _Scenes) can't
-        be enabled because it doesn't exist
-      logColumnText: 
-      fileName: 
-      className: 
-      namespaceName: 
-      lineCount: 1
-      hasSourceCode: 0
-      timeStamp: 15:26:17
-      timeFrame: -1
-      timeStampDateTimeNow: 
-      instanceID: 0
-      collapsedCount: 0
-      cachedHeight: -1
-      cachedHeightLogWidth: 0
-      stackEntries: []
-      ignoredStackEntries: []
-      lastMatchedCount: 1
-      belongsToFilters:
-      - name: Error
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
-        filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      belongsToStandardFilters:
-      - name: Error
-        isEnabled: 1
-        collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
-        filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
-        isStandardFilter: 1
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 1
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 1
-        useIconTexture: 0
-        filterFormatVersion: 1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list:
-          - name: 
-            isEnabled: 1
-            collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
-            searchString: <Any>
-            searchType: 1
-            removeSearchStringFromLog: 0
-            logTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            columnTypeList:
-              list:
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
-                columnType: 1
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-            sourceCodeList:
-              list: []
-              selectionList: 0
-              collapsable: 1
-              collapsed: 0
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 3
-          iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
-      assignedTempFilter:
-        name: 
-        isEnabled: 1
-        collapsed: 0
-        itemGUID: 
-        filterName: 
-        mainColor: {r: 1, g: 1, b: 1, a: 1}
-        isStandardFilter: 0
-        isTempFilter: 0
-        filterOnly: 0
-        useAdvancedColors: 0
-        customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
-        swallowStandard: 1
-        standardCanSwallow: 0
-        overrideStandardColors: 1
-        overrideStandardIcon: 1
-        collapseIconBackground: 0
-        collapseIconSymbol: 0
-        collapseIconLetter: 0
-        collapseIconTexture: 0
-        useIconBackground: 1
-        useIconSymbol: 0
-        useIconLetter: 0
-        useIconTexture: 0
-        filterFormatVersion: -1
-        iconColorize: 0
-        useAndOpForSearchList: 0
-        searchList:
-          list: []
-          selectionList: 0
-          collapsable: 1
-          collapsed: 0
-        iconLetter:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconSymbol:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconBackground:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        iconTexture:
-          name: 
-          isEnabled: 1
-          collapsed: 0
-          itemGUID: 
-          iconType: 1
-          iconType2: 1
-          iconText: A
-          useIconTextFirstLetter: 1
-          useIconLogColor: 1
-          iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
-          iconTextureGUID: 
-          useIconShadow: 1
-          iconOffset: {x: 0, y: 0}
-          iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 13
-        showInToolbar: 1
-        hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
     newEntries: []
     resetCompilerErrorEntries: 1
     compilerErrorEntries: []
     timeFrames: 
     _filteredEntries:
-    - logType: 3
+    - logType: 4
       ignore: 0
       processed: 1
       tempFilterProcessed: 1
@@ -2819,52 +2093,264 @@ MonoBehaviour:
       logPanelVisible: 1
       logPanelIndex: 0
       logOutputHeight: -1
-      listIndex: 3
-      nativeIndex: 3
+      listIndex: 0
+      nativeIndex: 0
       nativeIdentifier: 0
-      originalLog: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't
-        be enabled because it doesn't exist
-      originalStackTrace: 'Menu File/Open Recent Scene/SecretEnding (from _Scenes)
-        can''t be enabled because it doesn''t exist
+      originalLog: 'ArgumentOutOfRangeException: Specified argument was out of the
+        range of valid values.
+
+        Parameter name: subshaderIndex'
+      originalStackTrace: 'ArgumentOutOfRangeException: Specified argument was out
+        of the range of valid values.
+
+        Parameter name: subshaderIndex
+
+        UnityEngine.Shader.FindSubshaderTagValue
+        (System.Int32 subshaderIndex, UnityEngine.Rendering.ShaderTagId tagName)
+        (at /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.IsShaderGraphShader
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippetData)
+        (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.StripUnused
+        (UnityEditor.Rendering.BuiltIn.ShaderFeatures features, UnityEngine.Shader
+        shader, UnityEditor.Rendering.ShaderSnippetData snippetData, UnityEditor.Rendering.ShaderCompilerData
+        compilerData) (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284)
+
+        UnityEditor.Rendering.BuiltIn.ShaderPreprocessor.OnProcessShader
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippetData,
+        System.Collections.Generic.IList`1[T] compilerDataList) (at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348)
+
+        UnityEditor.Build.BuildPipelineInterfaces.OnPreprocessShaders
+        (UnityEngine.Shader shader, UnityEditor.Rendering.ShaderSnippetData snippet,
+        UnityEditor.Rendering.ShaderCompilerData[] data) (at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490)
+
+        UnityEngine.GUIUtility:ProcessEvent(Int32,
+        IntPtr, Boolean&) (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189)
 
 '
-      nativeFileName: 
+      nativeFileName: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
       nativeFileNamePretty: 
-      nativeLineNumber: 0
+      nativeLineNumber: 95
       watchName: 
-      logText: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't be enabled
-        because it doesn't exist
-      logTruncatedText: Menu File/Open Recent Scene/SecretEnding (from _Scenes) can't
-        be enabled because it doesn't exist
+      logText: 'ArgumentOutOfRangeException: Specified argument was out of the range
+        of valid values.
+
+        Parameter name: subshaderIndex'
+      logTruncatedText: 'ArgumentOutOfRangeException: Specified argument was out
+        of the range of valid values.
+
+        Parameter name: subshaderIndex'
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
-      lineCount: 1
+      lineCount: 2
       hasSourceCode: 0
-      timeStamp: 15:26:17
+      timeStamp: 16:20:45
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
       collapsedCount: 0
       cachedHeight: -1
       cachedHeightLogWidth: 0
-      stackEntries: []
+      stackEntries:
+      - fileName: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95
+        fileNameWithoutPath: Shader.bindings.cs
+        fileNameWithoutPathPlusLineNumber: Shader.bindings.cs:95
+        fileNamePretty: Shader.bindings
+        instanceID: -1
+        className: Shader
+        methodName: FindSubshaderTagValue
+        namespaceName: UnityEngine
+        lineNumberString: 95
+        charNumber: 0
+        stackLabel: Shader Error
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Runtime/Export/Shaders/Shader.bindings.cs:95'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:114
+        fileNamePretty: ShaderPreprocessor
+        instanceID: -1
+        className: ShaderPreprocessor
+        methodName: IsShaderGraphShader
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 114
+        charNumber: 0
+        stackLabel: ShaderPreprocessor.IsShaderGraphShader()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:114'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:284
+        fileNamePretty: ShaderPreprocessor
+        instanceID: -1
+        className: ShaderPreprocessor
+        methodName: StripUnused
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 284
+        charNumber: 0
+        stackLabel: ShaderPreprocessor.StripUnused()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:284'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssets: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs
+        fileNameWithoutAssetsPlusLineNumber: Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348
+        fileNameWithoutPath: ShaderPreprocessor.cs
+        fileNameWithoutPathPlusLineNumber: ShaderPreprocessor.cs:348
+        fileNamePretty: ShaderPreprocessor
+        instanceID: -1
+        className: ShaderPreprocessor
+        methodName: OnProcessShader
+        namespaceName: UnityEditor.Rendering.BuiltIn
+        lineNumberString: 348
+        charNumber: 0
+        stackLabel: ShaderPreprocessor.OnProcessShader()
+        stackLabel2: ' at Library/PackageCache/com.unity.shadergraph@12.1.8/Editor/Generation/Targets/BuiltIn/Editor/ShaderPreprocessor.cs:348'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490
+        fileNameWithoutPath: BuildPipelineInterfaces.cs
+        fileNameWithoutPathPlusLineNumber: BuildPipelineInterfaces.cs:490
+        fileNamePretty: BuildPipelineInterfaces
+        instanceID: -1
+        className: BuildPipelineInterfaces
+        methodName: OnPreprocessShaders
+        namespaceName: UnityEditor.Build
+        lineNumberString: 490
+        charNumber: 0
+        stackLabel: BuildPipelineInterfaces.OnPreprocessShaders()
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPipeline/BuildPipelineInterfaces.cs:490'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
+      - fileName: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs
+        fileNameWithoutAssets: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs
+        fileNameWithoutAssetsPlusLineNumber: /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189
+        fileNameWithoutPath: GUIUtility.cs
+        fileNameWithoutPathPlusLineNumber: GUIUtility.cs:189
+        fileNamePretty: GUIUtility
+        instanceID: -1
+        className: GUIUtility
+        methodName: ProcessEvent
+        namespaceName: UnityEngine
+        lineNumberString: 189
+        charNumber: 0
+        stackLabel: GUIUtility.ProcessEvent()
+        stackLabel2: ' at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189'
+        stackLabel1Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel1Width: 0
+        stackLabel1Height: 0
+        stackLabel2Content:
+          m_Text: 
+          m_Image: {fileID: 0}
+          m_Tooltip: 
+        stackLabel2Width: 0
+        stackLabel2Height: 0
+        stackSourceLineHeight: 0
+        sourceCode: []
+        sourceCodeUpdated: 0
+        showSource: 1
       ignoredStackEntries: []
       lastMatchedCount: 1
       belongsToFilters:
-      - name: Error
+      - name: Exception
         isEnabled: 1
         collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
+        itemGUID: d5bcd850-3468-4268-9748-e5fb1d08755c
         filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
         useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -2885,7 +2371,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
+            itemGUID: a4a66be4-f36a-46be-af0e-2077653e0801
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -2894,13 +2380,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
+                itemGUID: 665217a0-1f2b-4455-baae-f839109af445
+                logType: 4
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
+                itemGUID: ee8b5819-19b1-4d0e-bde4-bf542c0c07c2
+                logType: 7
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -2909,7 +2395,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
+                itemGUID: cf69dfe9-d20c-480f-ab48-8d909d70a639
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -2992,20 +2478,20 @@ MonoBehaviour:
           iconSize: 13
         showInToolbar: 1
         hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
+        hideWhenNoMatches: 1
       belongsToStandardFilters:
-      - name: Error
+      - name: Exception
         isEnabled: 1
         collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
+        itemGUID: d5bcd850-3468-4268-9748-e5fb1d08755c
         filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        mainColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
         useAdvancedColors: 1
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        customBackgroundColor: {r: 0.616, g: 0, b: 1, a: 0.7}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -3026,7 +2512,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
+            itemGUID: a4a66be4-f36a-46be-af0e-2077653e0801
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3035,13 +2521,13 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
+                itemGUID: 665217a0-1f2b-4455-baae-f839109af445
+                logType: 4
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
+                itemGUID: ee8b5819-19b1-4d0e-bde4-bf542c0c07c2
+                logType: 7
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -3050,7 +2536,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
+                itemGUID: cf69dfe9-d20c-480f-ab48-8d909d70a639
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3133,7 +2619,7 @@ MonoBehaviour:
           iconSize: 13
         showInToolbar: 1
         hideLabelInToolbar: 0
-        hideWhenNoMatches: 0
+        hideWhenNoMatches: 1
       assignedTempFilter:
         name: 
         isEnabled: 1
@@ -3238,7 +2724,7 @@ MonoBehaviour:
         showInToolbar: 1
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
-    - logType: 3
+    - logType: 1
       ignore: 0
       processed: 1
       tempFilterProcessed: 1
@@ -3246,30 +2732,33 @@ MonoBehaviour:
       logPanelVisible: 1
       logPanelIndex: 1
       logOutputHeight: -1
-      listIndex: 4
-      nativeIndex: 4
+      listIndex: 1
+      nativeIndex: 1
       nativeIdentifier: 0
-      originalLog: Menu File/Open Recent Scene/Victory (from _Scenes) can't be enabled
-        because it doesn't exist
-      originalStackTrace: 'Menu File/Open Recent Scene/Victory (from _Scenes) can''t
-        be enabled because it doesn''t exist
+      originalLog: Build completed with a result of 'Succeeded' in 34 seconds (33624
+        ms)
+      originalStackTrace: 'Build completed with a result of ''Succeeded'' in 34 seconds
+        (33624 ms)
+
+        UnityEngine.GUIUtility:ProcessEvent (int,intptr,bool&)
+        (at /Users/bokken/build/output/unity/unity/Modules/IMGUI/GUIUtility.cs:189)
 
 '
-      nativeFileName: 
+      nativeFileName: /Users/bokken/build/output/unity/unity/Editor/Mono/BuildPlayerWindowBuildMethods.cs
       nativeFileNamePretty: 
-      nativeLineNumber: 0
+      nativeLineNumber: 195
       watchName: 
-      logText: Menu File/Open Recent Scene/Victory (from _Scenes) can't be enabled
-        because it doesn't exist
-      logTruncatedText: Menu File/Open Recent Scene/Victory (from _Scenes) can't
-        be enabled because it doesn't exist
+      logText: Build completed with a result of 'Succeeded' in 34 seconds (33624
+        ms)
+      logTruncatedText: Build completed with a result of 'Succeeded' in 34 seconds
+        (33624 ms)
       logColumnText: 
       fileName: 
       className: 
       namespaceName: 
       lineCount: 1
       hasSourceCode: 0
-      timeStamp: 15:26:17
+      timeStamp: 16:21:12
       timeFrame: -1
       timeStampDateTimeNow: 
       instanceID: 0
@@ -3280,18 +2769,18 @@ MonoBehaviour:
       ignoredStackEntries: []
       lastMatchedCount: 1
       belongsToFilters:
-      - name: Error
+      - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
+        itemGUID: dcc7d10b-7711-4cef-bcc9-881494308323
         filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 1
+        useAdvancedColors: 0
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -3302,7 +2791,7 @@ MonoBehaviour:
         collapseIconTexture: 0
         useIconBackground: 1
         useIconSymbol: 0
-        useIconLetter: 1
+        useIconLetter: 0
         useIconTexture: 0
         filterFormatVersion: 1
         iconColorize: 0
@@ -3312,7 +2801,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
+            itemGUID: ad741a96-1b83-4638-9789-e8e8f0a1cea4
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3321,13 +2810,8 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
+                itemGUID: 1eb48a81-e19d-4521-8185-b310447d780c
+                logType: 1
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -3336,7 +2820,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
+                itemGUID: a788f07a-005b-4e5b-a752-1b23dcb18ff5
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3354,18 +2838,18 @@ MonoBehaviour:
           isEnabled: 1
           collapsed: 0
           itemGUID: 
-          iconType: 3
+          iconType: 1
           iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
+          iconSize: 13
         iconSymbol:
           name: 
           isEnabled: 1
@@ -3394,7 +2878,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -3421,18 +2905,18 @@ MonoBehaviour:
         hideLabelInToolbar: 0
         hideWhenNoMatches: 0
       belongsToStandardFilters:
-      - name: Error
+      - name: Log
         isEnabled: 1
         collapsed: 1
-        itemGUID: 2e81ef75-66f6-4a7f-b931-291634bdf123
+        itemGUID: dcc7d10b-7711-4cef-bcc9-881494308323
         filterName: 
-        mainColor: {r: 1, g: 0, b: 0, a: 0.7}
+        mainColor: {r: 1, g: 1, b: 1, a: 1}
         isStandardFilter: 1
         isTempFilter: 0
         filterOnly: 0
-        useAdvancedColors: 1
+        useAdvancedColors: 0
         customTextColor: {r: 1, g: 1, b: 1, a: 1}
-        customBackgroundColor: {r: 1, g: 0, b: 0, a: 0.7}
+        customBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
         swallowStandard: 1
         standardCanSwallow: 0
         overrideStandardColors: 1
@@ -3443,7 +2927,7 @@ MonoBehaviour:
         collapseIconTexture: 0
         useIconBackground: 1
         useIconSymbol: 0
-        useIconLetter: 1
+        useIconLetter: 0
         useIconTexture: 0
         filterFormatVersion: 1
         iconColorize: 0
@@ -3453,7 +2937,7 @@ MonoBehaviour:
           - name: 
             isEnabled: 1
             collapsed: 0
-            itemGUID: 4715e047-cf59-42a9-bc3d-1ab03cb82cd1
+            itemGUID: ad741a96-1b83-4638-9789-e8e8f0a1cea4
             searchString: <Any>
             searchType: 1
             removeSearchStringFromLog: 0
@@ -3462,13 +2946,8 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 6c43d6bf-fa33-4e70-8f32-50c849286f1b
-                logType: 3
-              - name: 
-                isEnabled: 1
-                collapsed: 0
-                itemGUID: 1f45cc9b-e68f-43ff-bd61-5a95b4804839
-                logType: 6
+                itemGUID: 1eb48a81-e19d-4521-8185-b310447d780c
+                logType: 1
               selectionList: 0
               collapsable: 1
               collapsed: 0
@@ -3477,7 +2956,7 @@ MonoBehaviour:
               - name: 
                 isEnabled: 1
                 collapsed: 0
-                itemGUID: 5fa3bbb9-d8a9-4316-b5ba-eceef8677948
+                itemGUID: a788f07a-005b-4e5b-a752-1b23dcb18ff5
                 columnType: 1
               selectionList: 0
               collapsable: 1
@@ -3495,18 +2974,18 @@ MonoBehaviour:
           isEnabled: 1
           collapsed: 0
           itemGUID: 
-          iconType: 3
+          iconType: 1
           iconType2: 1
-          iconText: X
-          useIconTextFirstLetter: 0
-          useIconLogColor: 0
+          iconText: A
+          useIconTextFirstLetter: 1
+          useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
           iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
           iconShadowOffset: {x: 0.5, y: 0.5}
-          iconSize: 7
+          iconSize: 13
         iconSymbol:
           name: 
           isEnabled: 1
@@ -3535,7 +3014,7 @@ MonoBehaviour:
           useIconTextFirstLetter: 1
           useIconLogColor: 1
           iconColor: {r: 1, g: 1, b: 1, a: 1}
-          iconBuiltInID: BACKGROUNDS_ECPBGROUNDEDSQUARE
+          iconBuiltInID: BACKGROUNDS_ECPLOGICON
           iconTextureGUID: 
           useIconShadow: 1
           iconOffset: {x: 0, y: 0}
@@ -3682,14 +3161,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 485
+    x: 583
     y: 0
-    width: 581
+    width: 518
     height: 792
   m_MinSize: {x: 100, y: 200}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 9881
+  controlID: 25403
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3707,10 +3186,10 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 581
+    width: 518
     height: 404
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 10}
   m_Panes:
   - {fileID: 10}
@@ -3737,9 +3216,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 485
+    x: 583
     y: 96
-    width: 579
+    width: 516
     height: 383
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3748,9 +3227,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: f4f80000
-      m_LastClickedID: 63732
-      m_ExpandedIDs: 12f6feff10f7feff5af7feffaafffeffb6fffeffbefffeff00fbffffb277000012f90000
+      m_SelectedIDs: 24bc0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: a8f1faff70f2faffbef2faff46f9faff0efbfaff16fbfaffce18feff1819feffa01ffeff6821feff7021feff845ffeff5e61feffa861feffbe61feff8a63feff9463feff8a65feffd465feff606cfeff2c6efeff386efeff66a0feff8ca0fefff2a0feff34a1feffd6affeff38b4feff82b4feff0abbfeffd2bcfeffdabcfeff28d1feffb4d1feffbae4feff9aeafeffe0ebfeff12f6feff10f7feff5af7feffaafffeffb6fffeffbefffeff00fbfffff4ffffffb277000012f900009eff00001404010090040100fa0801007209010078090100960901003e49010048490100e64901000c4a01006c4a01007a4a01008c4b01004c6001008a610100ba6101005c620100746201003a630100
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -3791,7 +3270,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 404
-    width: 581
+    width: 518
     height: 388
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
@@ -3821,9 +3300,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 485
+    x: 583
     y: 500
-    width: 579
+    width: 516
     height: 367
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -3857,7 +3336,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 94830000
     m_LastClickedID: 33684
-    m_ExpandedIDs: 0000000050830000
+    m_ExpandedIDs: 0000000050830000fe9d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3885,7 +3364,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000050830000
+    m_ExpandedIDs: 0000000050830000fe9d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -3910,9 +3389,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: f4f80000
-    m_LastClickedInstanceID: 63732
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: 24bc0000
+    m_LastClickedInstanceID: 48164
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -3940,7 +3419,7 @@ MonoBehaviour:
     m_ScrollPosition: {x: 0, y: 0}
     m_GridSize: 16
   m_SkipHiddenPackages: 0
-  m_DirectoriesAreaWidth: 115
+  m_DirectoriesAreaWidth: 50
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -3956,9 +3435,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1066
+    x: 1101
     y: 0
-    width: 446
+    width: 411
     height: 792
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
@@ -3988,9 +3467,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 1066
+    x: 1101
     y: 96
-    width: 445
+    width: 410
     height: 771
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -4003,7 +3482,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 117.76953
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:

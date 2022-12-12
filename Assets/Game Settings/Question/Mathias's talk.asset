@@ -30,12 +30,12 @@ MonoBehaviour:
   - Lines:
     - Text: 'No, I want to die of '
       Guid:
-        Value: 
+        Value: 1234adsf
     - Text: having a lot of knowledge in my mind!
       Guid:
-        Value: 
+        Value: 1234sdf
     Speaker: Me
     Guid:
-      Value: 
+      Value: dsf234f
   Guid:
     Value: MathiasTalk

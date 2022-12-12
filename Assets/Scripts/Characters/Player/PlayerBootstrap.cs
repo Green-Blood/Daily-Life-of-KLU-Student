@@ -15,6 +15,8 @@ namespace Characters.Player
         [SerializeField] private CharacterHealth playerHealth;
         [SerializeField] private PlayerDeath playerDeath;
         [SerializeField] private Tag cupTag;
+        [SerializeField] private AudioSystem audioSystem;
+        
 
         private PlayerMovement _playerMovement;
         private InputSystem _inputSystem;
@@ -38,17 +40,17 @@ namespace Characters.Player
         {
             if (state is State.TomStart or State.MathiasStart)
             {
-                AudioSystem.Instance.StartBoss();
+                audioSystem.StartBoss();
             }
             else if (state is State.MathiasCanStart or State.TomCanStart)
             {
                 if (playerHealth.CurrentHealth == playerHealth.MaxHealth / 2)
                 {
-                    AudioSystem.Instance.StartExplore50();
+                    audioSystem.StartExplore50();
                 }
                 else
                 {
-                    AudioSystem.Instance.StartExplore();
+                    audioSystem.StartExplore();
                 }
             }
         }
@@ -59,7 +61,7 @@ namespace Characters.Player
             {
                 if (currentHealth < maxHealth / 2)
                 {
-                    AudioSystem.Instance.StartExplore50();
+                    audioSystem.StartExplore50();
                 }
             }
             
